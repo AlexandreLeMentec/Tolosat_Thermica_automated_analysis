@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SYSML SYSML_VERSION="1.7" CONTENTS="MODEL" SAVEDATE="1668707775" SYSTEMA_VERSION="4.8.3P1">
+    <DATA_STRUCTURE NAME="modelo_teste..sysmdl" REFSET_ID="{e6d815a0-ec8c-4d4a-8ba8-fab6194ef499}">
+        <DATA_NODE TYPE="MODEL" REFOBJ_ID="2" NAME="Model">
+            <DATA_NODE TYPE="SHAPE" REFOBJ_ID="4" NAME="Bottom">
+                <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                    <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Rectangle">
+                        <ELEM X="0" Y="0" Z="0" TYPE="POINT" NAME="Point 1"/>
+                        <ELEM X="0" Y="1" Z="0" TYPE="POINT" NAME="Point 2"/>
+                        <ELEM X="1" Y="0" Z="0" TYPE="POINT" NAME="Point 3"/>
+                    </ELEM>
+                </NODE_ATTRIBUTE>
+            </DATA_NODE>
+            <DATA_NODE TYPE="SHAPE" REFOBJ_ID="9" NAME="Top">
+                <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                    <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Rectangle">
+                        <ELEM X="0" Y="0" Z="0" TYPE="POINT" NAME="Point 1"/>
+                        <ELEM X="0" Y="1" Z="0" TYPE="POINT" NAME="Point 2"/>
+                        <ELEM X="1" Y="0" Z="0" TYPE="POINT" NAME="Point 3"/>
+                    </ELEM>
+                </NODE_ATTRIBUTE>
+                <NODE_ATTRIBUTE TYPE="AXIS" NAME="AXIS">
+                    <ELEM AXISTYPE="TRAROT" TYPE="AXIS" NAME="Translations and rotations">
+                        <ELEM AXISTYPE="TRANSLATION" TYPE="AXIS" NAME="X, Y or Z translation">
+                            <ELEM TYPE="STRING" NAME="Translation direction" STR="TRAZ"/>
+                            <ELEM L="3" TYPE="LENGTH" NAME="Distance"/>
+                        </ELEM>
+                    </ELEM>
+                </NODE_ATTRIBUTE>
+            </DATA_NODE>
+            <DATA_NODE TYPE="SHAPE" REFOBJ_ID="5" NAME="Right">
+                <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                    <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Rectangle">
+                        <ELEM X="0" Y="0" Z="0" TYPE="POINT" NAME="Point 1"/>
+                        <ELEM X="0" Y="1" Z="0" TYPE="POINT" NAME="Point 2"/>
+                        <ELEM X="0" Y="0" Z="3" TYPE="POINT" NAME="Point 3"/>
+                    </ELEM>
+                </NODE_ATTRIBUTE>
+            </DATA_NODE>
+            <DATA_NODE TYPE="SHAPE" REFOBJ_ID="7" NAME="Front">
+                <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                    <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Rectangle">
+                        <ELEM X="0" Y="0" Z="0" TYPE="POINT" NAME="Point 1"/>
+                        <ELEM X="0" Y="1" Z="0" TYPE="POINT" NAME="Point 2"/>
+                        <ELEM X="0" Y="0" Z="3" TYPE="POINT" NAME="Point 3"/>
+                    </ELEM>
+                </NODE_ATTRIBUTE>
+                <NODE_ATTRIBUTE TYPE="AXIS" NAME="AXIS">
+                    <ELEM AXISTYPE="TRAROT" TYPE="AXIS" NAME="Translations and rotations">
+                        <ELEM AXISTYPE="ROTATION" TYPE="AXIS" NAME="X, Y or Z rotation">
+                            <ELEM TYPE="STRING" NAME="Rotation axis" STR="ROTZ"/>
+                            <ELEM ANGLE="90" TYPE="ANGLE" NAME="Angle"/>
+                        </ELEM>
+                        <ELEM AXISTYPE="TRANSLATION" TYPE="AXIS" NAME="X, Y or Z translation">
+                            <ELEM TYPE="STRING" NAME="Translation direction" STR="TRAX"/>
+                            <ELEM L="1" TYPE="LENGTH" NAME="Distance"/>
+                        </ELEM>
+                        <ELEM AXISTYPE="TRANSLATION" TYPE="AXIS" NAME="X, Y or Z translation">
+                            <ELEM TYPE="STRING" NAME="Translation direction" STR="TRAY"/>
+                            <ELEM L="-1" TYPE="LENGTH" NAME="Distance"/>
+                        </ELEM>
+                    </ELEM>
+                </NODE_ATTRIBUTE>
+            </DATA_NODE>
+            <DATA_NODE TYPE="SHAPE" REFOBJ_ID="8" NAME="Back">
+                <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                    <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Rectangle">
+                        <ELEM X="0" Y="0" Z="0" TYPE="POINT" NAME="Point 1"/>
+                        <ELEM X="0" Y="1" Z="0" TYPE="POINT" NAME="Point 2"/>
+                        <ELEM X="0" Y="0" Z="3" TYPE="POINT" NAME="Point 3"/>
+                    </ELEM>
+                </NODE_ATTRIBUTE>
+                <NODE_ATTRIBUTE TYPE="AXIS" NAME="AXIS">
+                    <ELEM AXISTYPE="TRAROT" TYPE="AXIS" NAME="Translations and rotations">
+                        <ELEM AXISTYPE="ROTATION" TYPE="AXIS" NAME="X, Y or Z rotation">
+                            <ELEM TYPE="STRING" NAME="Rotation axis" STR="ROTZ"/>
+                            <ELEM ANGLE="90" TYPE="ANGLE" NAME="Angle"/>
+                        </ELEM>
+                        <ELEM AXISTYPE="TRANSLATION" TYPE="AXIS" NAME="X, Y or Z translation">
+                            <ELEM TYPE="STRING" NAME="Translation direction" STR="TRAX"/>
+                            <ELEM L="1" TYPE="LENGTH" NAME="Distance"/>
+                        </ELEM>
+                        <ELEM AXISTYPE="TRANSLATION" TYPE="AXIS" NAME="X, Y or Z translation">
+                            <ELEM TYPE="STRING" NAME="Translation direction" STR="TRAY"/>
+                            <ELEM L="-1" TYPE="LENGTH" NAME="Distance"/>
+                        </ELEM>
+                        <ELEM AXISTYPE="TRANSLATION" TYPE="AXIS" NAME="X, Y or Z translation">
+                            <ELEM TYPE="STRING" NAME="Translation direction" STR="TRAX"/>
+                            <ELEM L="-1" TYPE="LENGTH" NAME="Distance"/>
+                        </ELEM>
+                    </ELEM>
+                </NODE_ATTRIBUTE>
+            </DATA_NODE>
+            <DATA_NODE TYPE="SHAPE" REFOBJ_ID="6" NAME="Left">
+                <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                    <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Rectangle">
+                        <ELEM X="0" Y="0" Z="0" TYPE="POINT" NAME="Point 1"/>
+                        <ELEM X="0" Y="1" Z="0" TYPE="POINT" NAME="Point 2"/>
+                        <ELEM X="0" Y="0" Z="3" TYPE="POINT" NAME="Point 3"/>
+                    </ELEM>
+                </NODE_ATTRIBUTE>
+                <NODE_ATTRIBUTE TYPE="AXIS" NAME="AXIS">
+                    <ELEM AXISTYPE="TRAROT" TYPE="AXIS" NAME="Translations and rotations">
+                        <ELEM AXISTYPE="TRANSLATION" TYPE="AXIS" NAME="X, Y or Z translation">
+                            <ELEM TYPE="STRING" NAME="Translation direction" STR="TRAX"/>
+                            <ELEM L="1" TYPE="LENGTH" NAME="Distance"/>
+                        </ELEM>
+                    </ELEM>
+                </NODE_ATTRIBUTE>
+            </DATA_NODE>
+            <DATA_NODE TYPE="OBJECT" REFOBJ_ID="10" NAME="Boards">
+                <DATA_NODE TYPE="SHAPE" REFOBJ_ID="12" NAME="Board1">
+                    <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                        <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Rectangle">
+                            <ELEM X="0" Y="0" Z="0" TYPE="POINT" NAME="Point 1"/>
+                            <ELEM X="0" Y="1" Z="0" TYPE="POINT" NAME="Point 2"/>
+                            <ELEM X="1" Y="0" Z="0" TYPE="POINT" NAME="Point 3"/>
+                        </ELEM>
+                    </NODE_ATTRIBUTE>
+                    <NODE_ATTRIBUTE TYPE="AXIS" NAME="AXIS">
+                        <ELEM AXISTYPE="TRAROT" TYPE="AXIS" NAME="Translations and rotations">
+                            <ELEM AXISTYPE="TRANSLATION" TYPE="AXIS" NAME="X, Y or Z translation">
+                                <ELEM TYPE="STRING" NAME="Translation direction" STR="TRAZ"/>
+                                <ELEM L="2" TYPE="LENGTH" NAME="Distance"/>
+                            </ELEM>
+                        </ELEM>
+                    </NODE_ATTRIBUTE>
+                </DATA_NODE>
+                <DATA_NODE TYPE="SHAPE" REFOBJ_ID="13" NAME="Board2">
+                    <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                        <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Rectangle">
+                            <ELEM X="0" Y="0" Z="0" TYPE="POINT" NAME="Point 1"/>
+                            <ELEM X="0" Y="1" Z="0" TYPE="POINT" NAME="Point 2"/>
+                            <ELEM X="1" Y="0" Z="0" TYPE="POINT" NAME="Point 3"/>
+                        </ELEM>
+                    </NODE_ATTRIBUTE>
+                    <NODE_ATTRIBUTE TYPE="AXIS" NAME="AXIS">
+                        <ELEM AXISTYPE="TRAROT" TYPE="AXIS" NAME="Translations and rotations">
+                            <ELEM AXISTYPE="TRANSLATION" TYPE="AXIS" NAME="X, Y or Z translation">
+                                <ELEM TYPE="STRING" NAME="Translation direction" STR="TRAZ"/>
+                                <ELEM L="1" TYPE="LENGTH" NAME="Distance"/>
+                            </ELEM>
+                        </ELEM>
+                    </NODE_ATTRIBUTE>
+                </DATA_NODE>
+            </DATA_NODE>
+        </DATA_NODE>
+    </DATA_STRUCTURE>
+</SYSML>
