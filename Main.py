@@ -90,11 +90,30 @@ def getPath(element):
 
 ####################################################################################################
 
- # Programming part
+# ------------------------------------------------------------------------
+# variable definition
+board_dict = {} # a dictionnary that will contain all the boards and their positions in the model
+z_list = [] # a list that will contain all the target z positions of the boards
+# ------------------------------------------------------------------------
 model = getCurrentModelFile() #we retrieve the model used for the exercise
-
 Boards = findObject(model.getRoot(), "Boards") #we find the object called "SatBody" in the model
 Boards = getSubTree(Boards)
+i = 0
 for board in Boards:
     if board.getType() == "shape":
-        print(board)
+        board_shape = ModelShape(board)
+        board_dict[board.getName()] = [i,[board_shape.getGeometry().getPoint(1).getX(), board_shape.getGeometry().getPoint(1).getY(), board_shape.getGeometry().getPoint(1).getZ()],
+                                       [board_shape.getGeometry().getPoint(2).getX(), board_shape.getGeometry().getPoint(2).getY(), board_shape.getGeometry().getPoint(2).getZ()],
+                                       [board_shape.getGeometry().getPoint(3).getX(), board_shape.getGeometry().getPoint(3).getY(), board_shape.getGeometry().getPoint(3).getZ()]]
+        # we store the position of the board in the dictionnary [z, [x1,y1,z], [x2,y2,z], [x3,y3,z]]
+        i += 1
+        z_list += [board_shape.getGeometry().getPoint(1).getZ()] # we store the z position of the board in the list
+
+def move_boards():
+    for Board in board_dict:
+        board = findShape(model.getRoot(), Board)
+        board_shape = ModelShape(board)
+        board_shape.move(0, 0, z_list[board_dict[board.getName()][0]])
+        # we move the board to the target z position
+
+move_boards
