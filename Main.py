@@ -117,3 +117,20 @@ def move_boards():
         # we move the board to the target z position
 
 move_boards
+
+
+
+def alter_pos(card,height):
+     board = findShape(model.getRoot(), card)
+     board_shape = ModelShape(board)
+     board_pos = [[board_shape.getGeometry().getPoint(1).getX(), board_shape.getGeometry().getPoint(1).getY(), board_shape.getGeometry().getPoint(1).getZ()],
+                 [board_shape.getGeometry().getPoint(2).getX(), board_shape.getGeometry().getPoint(2).getY(), board_shape.getGeometry().getPoint(2).getZ()],
+                 [board_shape.getGeometry().getPoint(3).getX(), board_shape.getGeometry().getPoint(3).getY(), board_shape.getGeometry().getPoint(3).getZ()]]
+     for line in board_pos:
+         
+         line[2]+=height
+     
+     board.getGeometry().setPoint(1,Point(board_pos[0][0],board_pos[0][1],board_pos[0][2]))
+     board.getGeometry().setPoint(2,Point(board_pos[1   ][0],board_pos[1][1],board_pos[1][2]))
+     board.getGeometry().setPoint(3,Point(board_pos[2][0],board_pos[2][1],board_pos[2][2]))
+     return 
