@@ -92,33 +92,16 @@ def getPath(element):
 
 # ------------------------------------------------------------------------
 # variable definition
-board_dict = {} # a dictionnary that will contain all the boards and their positions in the model
-z_list = [] # a list that will contain all the target z positions of the boards
+board_database = {} # a dictionnary that will contain all the boards and their data
 # ------------------------------------------------------------------------
 model = getCurrentModelFile() #we retrieve the model used for the exercise
-Boards = findObject(model.getRoot(), "Boards") #we find the object called "SatBody" in the model
-Boards = getSubTree(Boards)
-i = 0
-for board in Boards:
-    if board.getType() == "shape":
-        board_shape = ModelShape(board)
-        board_dict[board.getName()] = [i,[board_shape.getGeometry().getPoint(1).getX(), board_shape.getGeometry().getPoint(1).getY(), board_shape.getGeometry().getPoint(1).getZ()],
-                                       [board_shape.getGeometry().getPoint(2).getX(), board_shape.getGeometry().getPoint(2).getY(), board_shape.getGeometry().getPoint(2).getZ()],
-                                       [board_shape.getGeometry().getPoint(3).getX(), board_shape.getGeometry().getPoint(3).getY(), board_shape.getGeometry().getPoint(3).getZ()]]
-        # we store the position of the board in the dictionnary [z, [x1,y1,z], [x2,y2,z], [x3,y3,z]]
-        i += 1
-        z_list += [board_shape.getGeometry().getPoint(1).getZ()] # we store the z position of the board in the list
+Boards = findObject(model.getRoot(), "Boards") #we find the object called "SatBody" in the model # not useful for the moment
 
-def move_boards():
-    for Board in board_dict:
-        board = findShape(model.getRoot(), Board)
-        board_shape = ModelShape(board)
-        board_shape.move(0, 0, z_list[board_dict[board.getName()][0]])
-        # we move the board to the target z position
-
-move_boards
-
-
+def read_database():
+    with open('database.csv', newline='') as database:
+        for line in database:
+            info = line.split()
+            board_database[info[0]] = [info[1], info[2], info[3]] # [thickness, dissipation, node]
 
 def alter_pos(card,height):
      board = findShape(model.getRoot(), card)
@@ -127,10 +110,7 @@ def alter_pos(card,height):
                  [board_shape.getGeometry().getPoint(2).getX(), board_shape.getGeometry().getPoint(2).getY(), board_shape.getGeometry().getPoint(2).getZ()],
                  [board_shape.getGeometry().getPoint(3).getX(), board_shape.getGeometry().getPoint(3).getY(), board_shape.getGeometry().getPoint(3).getZ()]]
      for line in board_pos:
-         
-         line[2]+=height
-     
+        line[2]+=height
      board.getGeometry().setPoint(1,Point(board_pos[0][0],board_pos[0][1],board_pos[0][2]))
-     board.getGeometry().setPoint(2,Point(board_pos[1   ][0],board_pos[1][1],board_pos[1][2]))
-     board.getGeometry().setPoint(3,Point(board_pos[2][0],board_pos[2][1],board_pos[2][2]))
-     return 
+     board.getGeometry().setPoint(2,Point(board_pos[1][0],board_pos[1][1],board_pos[1][2]))
+     board.getGeometry().setPoint(3,Point(board_pos[2][0],board_pos[2][1],board_pos[2][2])) 
