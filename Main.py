@@ -114,3 +114,5 @@ def alter_pos(card,height):
      board.getGeometry().setPoint(1,Point(board_pos[0][0],board_pos[0][1],board_pos[0][2]))
      board.getGeometry().setPoint(2,Point(board_pos[1][0],board_pos[1][1],board_pos[1][2]))
      board.getGeometry().setPoint(3,Point(board_pos[2][0],board_pos[2][1],board_pos[2][2])) 
+
+ProcessMission()
