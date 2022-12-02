@@ -115,4 +115,4 @@ def alter_pos(card,height):
      board.getGeometry().setPoint(2,Point(board_pos[1][0],board_pos[1][1],board_pos[1][2]))
      board.getGeometry().setPoint(3,Point(board_pos[2][0],board_pos[2][1],board_pos[2][2])) 
 
-ProcessMission()
+mission = ProcessingFile(C:\Users\33614\Documents\GitHub\Tolosat_Thermica_automated_analysis\mission1.sysmis)
