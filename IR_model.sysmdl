@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SYSML SYSML_VERSION="1.7" CONTENTS="MODEL" SAVEDATE="1670595645" SYSTEMA_VERSION="4.9.0">
+    <DATA_STRUCTURE NAME="IR_model.sysmdl" REFSET_ID="{c2af3c6d-9965-4018-889f-b8f7dcd91ba6}">
+        <DATA_NODE TYPE="MODEL" REFOBJ_ID="2" NAME="Model">
+            <DATA_NODE TYPE="OBJECT" REFOBJ_ID="3" NAME="Walls">
+                <DATA_NODE TYPE="SHAPE" REFOBJ_ID="5" NAME="Bottom">
+                    <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                        <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Rectangle">
+                            <ELEM X="0" Y="0" Z="0" TYPE="POINT" NAME="Point 1"/>
+                            <ELEM X="0.1" Y="0" Z="0" TYPE="POINT" NAME="Point 2"/>
+                            <ELEM X="0" Y="0.1" Z="0" TYPE="POINT" NAME="Point 3"/>
+                        </ELEM>
+                    </NODE_ATTRIBUTE>
+                    <NODE_ATTRIBUTE TYPE="PROP_APPLI" NAME="Thermica">
+                        <CONTENER TYPE="SHELL" NAME="Bulk"/>
+                        <CONTENER TYPE="SHELL" NAME="Transverse"/>
+                        <CONTENER TYPE="SHELL" NAME="Coating">
+                            <FACE NAME="Alike sides">
+                                <LAYER NAME="Layer 1">
+                                    <PROP_CATEGORY NAME="Thermo-optical IR">
+                                        <ELEM TYPE="STRING" NAME="Selected material" STR="MLI"/>
+                                    </PROP_CATEGORY>
+                                    <PROP_CATEGORY NAME="Thermo-optical UV">
+                                        <ELEM TYPE="STRING" NAME="Selected material" STR="MLI"/>
+                                    </PROP_CATEGORY>
+                                </LAYER>
+                            </FACE>
+                        </CONTENER>
+                        <CONTENER TYPE="SHELL" NAME="Miscellaneous"/>
+                        <CONTENER TYPE="SHELL" NAME="Enclosure"/>
+                    </NODE_ATTRIBUTE>
+                </DATA_NODE>
+                <DATA_NODE TYPE="SHAPE" REFOBJ_ID="11" NAME="Top">
+                    <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                        <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Rectangle">
+                            <ELEM X="0" Y="0" Z="0" TYPE="POINT" NAME="Point 1"/>
+                            <ELEM X="0.1" Y="0" Z="0" TYPE="POINT" NAME="Point 2"/>
+                            <ELEM X="0" Y="0.1" Z="0" TYPE="POINT" NAME="Point 3"/>
+                        </ELEM>
+                    </NODE_ATTRIBUTE>
+                    <NODE_ATTRIBUTE TYPE="AXIS" NAME="AXIS">
+                        <ELEM AXISTYPE="TRAROT" TYPE="AXIS" NAME="Translations and rotations">
+                            <ELEM AXISTYPE="ROTATION" TYPE="AXIS" NAME="X, Y or Z rotation">
+                                <ELEM TYPE="STRING" NAME="Rotation axis" STR="ROTX"/>
+                                <ELEM ANGLE="0" TYPE="ANGLE" NAME="Angle"/>
+                            </ELEM>
+                            <ELEM AXISTYPE="TRANSLATION" TYPE="AXIS" NAME="X, Y or Z translation">
+                                <ELEM TYPE="STRING" NAME="Translation direction" STR="TRAZ"/>
+                                <ELEM L="0.3" TYPE="LENGTH" NAME="Distance"/>
+                            </ELEM>
+                        </ELEM>
+                    </NODE_ATTRIBUTE>
+                    <NODE_ATTRIBUTE TYPE="PROP_APPLI" NAME="Thermica">
+                        <CONTENER TYPE="SHELL" NAME="Bulk"/>
+                        <CONTENER TYPE="SHELL" NAME="Transverse"/>
+                        <CONTENER TYPE="SHELL" NAME="Coating">
+                            <FACE NAME="Alike sides">
+                                <LAYER NAME="Layer 1">
+                                    <PROP_CATEGORY NAME="Thermo-optical IR">
+                                        <ELEM TYPE="STRING" NAME="Selected material" STR="MLI"/>
+                                    </PROP_CATEGORY>
+                                    <PROP_CATEGORY NAME="Thermo-optical UV">
+                                        <ELEM TYPE="STRING" NAME="Selected material" STR="MLI"/>
+                                    </PROP_CATEGORY>
+                                </LAYER>
+                            </FACE>
+                        </CONTENER>
+                        <CONTENER TYPE="SHELL" NAME="Miscellaneous"/>
+                        <CONTENER TYPE="SHELL" NAME="Enclosure"/>
+                    </NODE_ATTRIBUTE>
+                </DATA_NODE>
+                <DATA_NODE TYPE="SHAPE" REFOBJ_ID="6" NAME="Left">
+                    <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                        <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Rectangle">
+                            <ELEM X="0" Y="0" Z="0" TYPE="POINT" NAME="Point 1"/>
+                            <ELEM X="0.1" Y="0" Z="0" TYPE="POINT" NAME="Point 2"/>
+                            <ELEM X="0" Y="0" Z="0.3" TYPE="POINT" NAME="Point 3"/>
+                        </ELEM>
+                    </NODE_ATTRIBUTE>
+                    <NODE_ATTRIBUTE TYPE="PROP_APPLI" NAME="Thermica">
+                        <CONTENER TYPE="SHELL" NAME="Bulk"/>
+                        <CONTENER TYPE="SHELL" NAME="Transverse"/>
+                        <CONTENER TYPE="SHELL" NAME="Coating">
+                            <FACE NAME="Alike sides">
+                                <LAYER NAME="Layer 1">
+                                    <PROP_CATEGORY NAME="Thermo-optical IR">
+                                        <ELEM TYPE="STRING" NAME="Selected material" STR="MLI"/>
+                                    </PROP_CATEGORY>
+                                    <PROP_CATEGORY NAME="Thermo-optical UV">
+                                        <ELEM TYPE="STRING" NAME="Selected material" STR="MLI"/>
+                                    </PROP_CATEGORY>
+                                </LAYER>
+                            </FACE>
+                        </CONTENER>
+                        <CONTENER TYPE="SHELL" NAME="Miscellaneous"/>
+                        <CONTENER TYPE="SHELL" NAME="Enclosure"/>
+                    </NODE_ATTRIBUTE>
+                </DATA_NODE>
+                <DATA_NODE TYPE="SHAPE" REFOBJ_ID="8" NAME="Back">
+                    <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                        <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Rectangle">
+                            <ELEM X="0" Y="0" Z="0" TYPE="POINT" NAME="Point 1"/>
+                            <ELEM X="0.1" Y="0" Z="0" TYPE="POINT" NAME="Point 2"/>
+                            <ELEM X="0" Y="0" Z="0.3" TYPE="POINT" NAME="Point 3"/>
+                        </ELEM>
+                    </NODE_ATTRIBUTE>
+                    <NODE_ATTRIBUTE TYPE="AXIS" NAME="AXIS">
+                        <ELEM AXISTYPE="TRAROT" TYPE="AXIS" NAME="Translations and rotations">
+                            <ELEM AXISTYPE="ROTATION" TYPE="AXIS" NAME="X, Y or Z rotation">
+                                <ELEM TYPE="STRING" NAME="Rotation axis" STR="ROTZ"/>
+                                <ELEM ANGLE="90" TYPE="ANGLE" NAME="Angle"/>
+                            </ELEM>
+                        </ELEM>
+                    </NODE_ATTRIBUTE>
+                    <NODE_ATTRIBUTE TYPE="PROP_APPLI" NAME="Thermica">
+                        <CONTENER TYPE="SHELL" NAME="Bulk"/>
+                        <CONTENER TYPE="SHELL" NAME="Transverse"/>
+                        <CONTENER TYPE="SHELL" NAME="Coating">
+                            <FACE NAME="Alike sides">
+                                <LAYER NAME="Layer 1">
+                                    <PROP_CATEGORY NAME="Thermo-optical IR">
+                                        <ELEM TYPE="STRING" NAME="Selected material" STR="MLI"/>
+                                    </PROP_CATEGORY>
+                                    <PROP_CATEGORY NAME="Thermo-optical UV">
+                                        <ELEM TYPE="STRING" NAME="Selected material" STR="MLI"/>
+                                    </PROP_CATEGORY>
+                                </LAYER>
+                            </FACE>
+                        </CONTENER>
+                        <CONTENER TYPE="SHELL" NAME="Miscellaneous"/>
+                        <CONTENER TYPE="SHELL" NAME="Enclosure"/>
+                    </NODE_ATTRIBUTE>
+                </DATA_NODE>
+                <DATA_NODE TYPE="SHAPE" REFOBJ_ID="10" NAME="Front">
+                    <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                        <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Rectangle">
+                            <ELEM X="0" Y="0" Z="0" TYPE="POINT" NAME="Point 1"/>
+                            <ELEM X="0.1" Y="0" Z="0" TYPE="POINT" NAME="Point 2"/>
+                            <ELEM X="0" Y="0" Z="0.3" TYPE="POINT" NAME="Point 3"/>
+                        </ELEM>
+                    </NODE_ATTRIBUTE>
+                    <NODE_ATTRIBUTE TYPE="AXIS" NAME="AXIS">
+                        <ELEM AXISTYPE="TRAROT" TYPE="AXIS" NAME="Translations and rotations">
+                            <ELEM AXISTYPE="ROTATION" TYPE="AXIS" NAME="X, Y or Z rotation">
+                                <ELEM TYPE="STRING" NAME="Rotation axis" STR="ROTZ"/>
+                                <ELEM ANGLE="90" TYPE="ANGLE" NAME="Angle"/>
+                            </ELEM>
+                            <ELEM AXISTYPE="TRANSLATION" TYPE="AXIS" NAME="X, Y or Z translation">
+                                <ELEM TYPE="STRING" NAME="Translation direction" STR="TRAY"/>
+                                <ELEM L="-0.1" TYPE="LENGTH" NAME="Distance"/>
+                            </ELEM>
+                        </ELEM>
+                    </NODE_ATTRIBUTE>
+                    <NODE_ATTRIBUTE TYPE="PROP_APPLI" NAME="Thermica">
+                        <CONTENER TYPE="SHELL" NAME="Bulk"/>
+                        <CONTENER TYPE="SHELL" NAME="Transverse"/>
+                        <CONTENER TYPE="SHELL" NAME="Coating">
+                            <FACE NAME="Alike sides">
+                                <LAYER NAME="Layer 1">
+                                    <PROP_CATEGORY NAME="Thermo-optical IR">
+                                        <ELEM TYPE="STRING" NAME="Selected material" STR="MLI"/>
+                                    </PROP_CATEGORY>
+                                    <PROP_CATEGORY NAME="Thermo-optical UV">
+                                        <ELEM TYPE="STRING" NAME="Selected material" STR="MLI"/>
+                                    </PROP_CATEGORY>
+                                </LAYER>
+                            </FACE>
+                        </CONTENER>
+                        <CONTENER TYPE="SHELL" NAME="Miscellaneous"/>
+                        <CONTENER TYPE="SHELL" NAME="Enclosure"/>
+                    </NODE_ATTRIBUTE>
+                </DATA_NODE>
+                <DATA_NODE TYPE="SHAPE" REFOBJ_ID="7" NAME="Right">
+                    <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                        <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Rectangle">
+                            <ELEM X="0" Y="0" Z="0" TYPE="POINT" NAME="Point 1"/>
+                            <ELEM X="0.1" Y="0" Z="0" TYPE="POINT" NAME="Point 2"/>
+                            <ELEM X="0" Y="0" Z="0.3" TYPE="POINT" NAME="Point 3"/>
+                        </ELEM>
+                    </NODE_ATTRIBUTE>
+                    <NODE_ATTRIBUTE TYPE="AXIS" NAME="AXIS">
+                        <ELEM AXISTYPE="TRAROT" TYPE="AXIS" NAME="Translations and rotations">
+                            <ELEM AXISTYPE="TRANSLATION" TYPE="AXIS" NAME="X, Y or Z translation">
+                                <ELEM TYPE="STRING" NAME="Translation direction" STR="TRAY"/>
+                                <ELEM L="0.1" TYPE="LENGTH" NAME="Distance"/>
+                            </ELEM>
+                        </ELEM>
+                    </NODE_ATTRIBUTE>
+                    <NODE_ATTRIBUTE TYPE="DISPLAYPROPGROUP_ATT" NAME="DISPLAY PROPERTIES">
+                        <ELEM TYPE="TEXTURE_ELEM" ID="TEXTURE">
+                            <ELEM TYPE="STRING" STR=""/>
+                        </ELEM>
+                        <ELEM TYPE="VALUE" ID="TRANSPARENCY" VALUE="0"/>
+                        <ELEM TYPE="VALUE" ID="AMBIENT_LIGHTING" VALUE="0.26"/>
+                        <ELEM TYPE="VALUE" ID="DIFFUSE_LIGHTING" VALUE="0.01"/>
+                        <ELEM TYPE="VALUE" ID="SPECULAR_LIGHTING" VALUE="0.16"/>
+                    </NODE_ATTRIBUTE>
+                    <NODE_ATTRIBUTE TYPE="PROP_APPLI" NAME="Thermica">
+                        <CONTENER TYPE="SHELL" NAME="Bulk"/>
+                        <CONTENER TYPE="SHELL" NAME="Transverse"/>
+                        <CONTENER TYPE="SHELL" NAME="Coating">
+                            <FACE NAME="Alike sides">
+                                <LAYER NAME="Layer 1">
+                                    <PROP_CATEGORY NAME="Thermo-optical IR">
+                                        <ELEM TYPE="STRING" NAME="Selected material" STR="MLI"/>
+                                    </PROP_CATEGORY>
+                                    <PROP_CATEGORY NAME="Thermo-optical UV">
+                                        <ELEM TYPE="STRING" NAME="Selected material" STR="MLI"/>
+                                    </PROP_CATEGORY>
+                                </LAYER>
+                            </FACE>
+                        </CONTENER>
+                        <CONTENER TYPE="SHELL" NAME="Miscellaneous"/>
+                        <CONTENER TYPE="SHELL" NAME="Enclosure"/>
+                    </NODE_ATTRIBUTE>
+                </DATA_NODE>
+                <NODE_ATTRIBUTE TYPE="PROP_APPLI" NAME="Thermica">
+                    <CONTENER TYPE="SHELL" NAME="Bulk"/>
+                    <CONTENER TYPE="VOLUME" NAME="Bulk"/>
+                    <CONTENER TYPE="SHELL" NAME="Transverse"/>
+                    <CONTENER TYPE="SHELL" NAME="Coating">
+                        <FACE NAME="Alike sides">
+                            <LAYER NAME="Layer 1">
+                                <PROP_CATEGORY NAME="Thermo-optical IR">
+                                    <ELEM TYPE="STRING" NAME="Selected material" STR="MLI"/>
+                                </PROP_CATEGORY>
+                                <PROP_CATEGORY NAME="Thermo-optical UV">
+                                    <ELEM TYPE="STRING" NAME="Selected material" STR="MLI"/>
+                                </PROP_CATEGORY>
+                            </LAYER>
+                        </FACE>
+                    </CONTENER>
+                    <CONTENER TYPE="VOLUME" NAME="Coating"/>
+                    <CONTENER TYPE="SHELL" NAME="Miscellaneous"/>
+                    <CONTENER TYPE="SHELL" NAME="Enclosure"/>
+                    <CONTENER TYPE="VOLUME" NAME="Enclosure"/>
+                </NODE_ATTRIBUTE>
+            </DATA_NODE>
+            <DATA_NODE TYPE="OBJECT" REFOBJ_ID="12" NAME="Cards">
+                <DATA_NODE TYPE="SHAPE" REFOBJ_ID="14" NAME="Power">
+                    <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                        <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Rectangle">
+                            <ELEM X="0.001" Y="0.001" Z="0.05" TYPE="POINT" NAME="Point 1"/>
+                            <ELEM X="0.0999" Y="0.001" Z="0.05" TYPE="POINT" NAME="Point 2"/>
+                            <ELEM X="0.001" Y="0.0999" Z="0.05" TYPE="POINT" NAME="Point 3"/>
+                        </ELEM>
+                    </NODE_ATTRIBUTE>
+                </DATA_NODE>
+                <DATA_NODE TYPE="SHAPE" REFOBJ_ID="20" NAME="OBDH">
+                    <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                        <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Rectangle">
+                            <ELEM X="0.001" Y="0.001" Z="0.08" TYPE="POINT" NAME="Point 1"/>
+                            <ELEM X="0.0999" Y="0.001" Z="0.08" TYPE="POINT" NAME="Point 2"/>
+                            <ELEM X="0.001" Y="0.0999" Z="0.08" TYPE="POINT" NAME="Point 3"/>
+                        </ELEM>
+                    </NODE_ATTRIBUTE>
+                </DATA_NODE>
+                <DATA_NODE TYPE="SHAPE" REFOBJ_ID="21" NAME="Gravimmetry">
+                    <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                        <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Rectangle">
+                            <ELEM X="0.001" Y="0.001" Z="0.15" TYPE="POINT" NAME="Point 1"/>
+                            <ELEM X="0.0999" Y="0.001" Z="0.15" TYPE="POINT" NAME="Point 2"/>
+                            <ELEM X="0.001" Y="0.0999" Z="0.15" TYPE="POINT" NAME="Point 3"/>
+                        </ELEM>
+                    </NODE_ATTRIBUTE>
+                </DATA_NODE>
+                <DATA_NODE TYPE="SHAPE" REFOBJ_ID="22" NAME="Comms">
+                    <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                        <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Rectangle">
+                            <ELEM X="0.001" Y="0.001" Z="0.19" TYPE="POINT" NAME="Point 1"/>
+                            <ELEM X="0.0999" Y="0.001" Z="0.19" TYPE="POINT" NAME="Point 2"/>
+                            <ELEM X="0.001" Y="0.0999" Z="0.19" TYPE="POINT" NAME="Point 3"/>
+                        </ELEM>
+                    </NODE_ATTRIBUTE>
+                </DATA_NODE>
+                <DATA_NODE TYPE="SHAPE" REFOBJ_ID="23" NAME="AOCS">
+                    <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                        <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Rectangle">
+                            <ELEM X="0.001" Y="0.001" Z="1.23" TYPE="POINT" NAME="Point 1"/>
+                            <ELEM X="0.0999" Y="0.001" Z="1.23" TYPE="POINT" NAME="Point 2"/>
+                            <ELEM X="0.001" Y="0.0999" Z="1.23" TYPE="POINT" NAME="Point 3"/>
+                        </ELEM>
+                    </NODE_ATTRIBUTE>
+                </DATA_NODE>
+                <DATA_NODE TYPE="SHAPE" REFOBJ_ID="24" NAME="Iridium">
+                    <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
+                        <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Rectangle">
+                            <ELEM X="0.001" Y="0.001" Z="0.27" TYPE="POINT" NAME="Point 1"/>
+                            <ELEM X="0.0999" Y="0.001" Z="0.27" TYPE="POINT" NAME="Point 2"/>
+                            <ELEM X="0.001" Y="0.0999" Z="0.27" TYPE="POINT" NAME="Point 3"/>
+                        </ELEM>
+                    </NODE_ATTRIBUTE>
+                </DATA_NODE>
+                <NODE_ATTRIBUTE TYPE="PROP_APPLI" NAME="Thermica">
+                    <CONTENER TYPE="SHELL" NAME="Bulk"/>
+                    <CONTENER TYPE="VOLUME" NAME="Bulk"/>
+                    <CONTENER TYPE="SHELL" NAME="Transverse"/>
+                    <CONTENER TYPE="SHELL" NAME="Coating">
+                        <FACE NAME="Alike sides">
+                            <LAYER NAME="Layer 1">
+                                <PROP_CATEGORY NAME="Thermo-optical IR">
+                                    <ELEM TYPE="STRING" NAME="Selected material" STR="Kapton"/>
+                                </PROP_CATEGORY>
+                                <PROP_CATEGORY NAME="Thermo-optical UV">
+                                    <ELEM TYPE="STRING" NAME="Selected material" STR="Kapton"/>
+                                </PROP_CATEGORY>
+                            </LAYER>
+                        </FACE>
+                    </CONTENER>
+                    <CONTENER TYPE="VOLUME" NAME="Coating"/>
+                    <CONTENER TYPE="SHELL" NAME="Miscellaneous"/>
+                    <CONTENER TYPE="SHELL" NAME="Enclosure"/>
+                    <CONTENER TYPE="VOLUME" NAME="Enclosure"/>
+                </NODE_ATTRIBUTE>
+            </DATA_NODE>
+        </DATA_NODE>
+    </DATA_STRUCTURE>
+</SYSML>

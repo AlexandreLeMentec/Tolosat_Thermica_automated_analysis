@@ -93,6 +93,10 @@ def getPath(element):
 # ------------------------------------------------------------------------
 # variable definition
 board_database = {} # a dictionnary that will contain all the boards and their data
+model = ModelFile("D:\Astrre\Systema\Systema-4.9.0\python\src\sysModule\tolosat\IR_model.sysmdl")
+mission = MissionFile("D:\Astrre\Systema\Systema-4.9.0\python\src\sysModule\tolosat\mission1.sysmis")
+process = ProcessFile("D:\Astrre\Systema\Systema-4.9.0\python\src\sysModule\tolosat\results.sysprc")
+kine = KinematicsFile("D:\Astrre\Systema\Systema-4.9.0\python\src\sysModule\tolosat\kine.syskin")
 # ------------------------------------------------------------------------
 model = getCurrentModelFile() #we retrieve the model used for the exercise
 Boards = findObject(model.getRoot(), "Boards") #we find the object called "SatBody" in the model # not useful for the moment
@@ -115,4 +119,5 @@ def alter_pos(card,height):
      board.getGeometry().setPoint(2,Point(board_pos[1][0],board_pos[1][1],board_pos[1][2]))
      board.getGeometry().setPoint(3,Point(board_pos[2][0],board_pos[2][1],board_pos[2][2])) 
 
-mission = ProcessingFile(C:\Users\33614\Documents\GitHub\Tolosat_Thermica_automated_analysis\mission1.sysmis)
+
+# alter_pos("AOCS", 1)
