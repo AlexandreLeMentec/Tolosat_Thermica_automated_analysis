@@ -1,0 +1,315 @@
+
+*------------------------------------*
+*                                    *
+*   SYSTEMA V4 APPLICATION LOG FILE  *
+*                                    *
+*------------------------------------*
+
+
+
+              **********
+
+      Radiation Computation
+
+
+Execution started on Tue Dec 13 14:46:01 2022
+
+
+
+  - Number of active threads : 8 ( / 8 available)
+
+State  1 : Model Initialisation                                                Time :  Tue Dec 13 14:46:01 2022
+
+State  2 : Thermal Data Loading                                                Time :  Tue Dec 13 14:46:01 2022
+
+State  3 : Mission Data Loading                                                Time :  Tue Dec 13 14:46:01 2022
+
+Nb eclipse event: 2
+Nb penumbra event: 2
+Nb arc event: 1
+Nb sequence event: 0
+
+State  4 : Ray-Tracing Initialisation                                          Time :  Tue Dec 13 14:46:01 2022
+
+
+
+
+DUMP RADIATION PARAMS
+---------------------
+
+ - model name         : mission1.sysset
+
+ - IR computation : 1
+ - UV computation : 1
+ - Space couplings : Yes
+ - Reciprocal REF filter : 0.0001
+ - REF minimum variation : 0.05
+ - Ray emission (high criticity) :
+    - Number of rays per node : 50000
+ - Ray emission (normal criticity) :
+    - Number of rays per node : 10000
+ - Ray emission (low criticity) :
+    - Number of rays per node : 1000
+ - Ray threshold : 0.01
+ - Number of space divisions : 20
+
+ - output             : SOL
+ - output gv          : 
+ - output gr          : mission1.gr.nwk
+
+MODEL INFO
+----------
+
+ - nb models       : 1
+ - nb surfaces     : 12
+ - nb mesh         : 12
+ - nb volumes      : 0
+ - nb vmesh        : 0
+ Model names :
+   - 
+
+
+ MISSION INFO
+ ------------
+
+ - number of times                : 77
+     -    1 -> 28479.1217821 GAMMA50   -> simulation time        0.00 seconds
+     -    2 -> 28479.1227556 GAMMA50   -> simulation time       84.11 seconds
+     -    3 -> 28479.1237291 GAMMA50   -> simulation time      168.22 seconds
+     -    4 -> 28479.1247026 GAMMA50   -> simulation time      252.34 seconds
+     -    5 -> 28479.1256761 GAMMA50   -> simulation time      336.45 seconds
+     -    6 -> 28479.1266496 GAMMA50   -> simulation time      420.56 seconds
+     -    7 -> 28479.1276231 GAMMA50   -> simulation time      504.67 seconds
+     -    8 -> 28479.1285967 GAMMA50   -> simulation time      588.78 seconds
+     -    9 -> 28479.1295702 GAMMA50   -> simulation time      672.89 seconds
+     -   10 -> 28479.1305437 GAMMA50   -> simulation time      757.01 seconds
+     -   11 -> 28479.1315172 GAMMA50   -> simulation time      841.12 seconds
+     -   12 -> 28479.1324907 GAMMA50   -> simulation time      925.23 seconds
+     -   13 -> 28479.1334642 GAMMA50   -> simulation time     1009.34 seconds
+     -   14 -> 28479.1344378 GAMMA50   -> simulation time     1093.45 seconds
+     -   15 -> 28479.1354113 GAMMA50   -> simulation time     1177.56 seconds
+     -   16 -> 28479.1363848 GAMMA50   -> simulation time     1261.68 seconds
+     -   17 -> 28479.1373583 GAMMA50   -> simulation time     1345.79 seconds
+     -   18 -> 28479.1376314 GAMMA50   -> simulation time     1369.38 seconds
+     -   19 -> 28479.1377495 GAMMA50   -> simulation time     1379.58 seconds
+     -   20 -> 28479.1383318 GAMMA50   -> simulation time     1429.90 seconds
+     -   21 -> 28479.1393053 GAMMA50   -> simulation time     1514.01 seconds
+     -   22 -> 28479.1402788 GAMMA50   -> simulation time     1598.12 seconds
+     -   23 -> 28479.1412524 GAMMA50   -> simulation time     1682.23 seconds
+     -   24 -> 28479.1422259 GAMMA50   -> simulation time     1766.35 seconds
+     -   25 -> 28479.1431994 GAMMA50   -> simulation time     1850.46 seconds
+     -   26 -> 28479.1441729 GAMMA50   -> simulation time     1934.57 seconds
+     -   27 -> 28479.1451464 GAMMA50   -> simulation time     2018.68 seconds
+     -   28 -> 28479.1461199 GAMMA50   -> simulation time     2102.79 seconds
+     -   29 -> 28479.1470935 GAMMA50   -> simulation time     2186.90 seconds
+     -   30 -> 28479.1480670 GAMMA50   -> simulation time     2271.02 seconds
+     -   31 -> 28479.1490405 GAMMA50   -> simulation time     2355.13 seconds
+     -   32 -> 28479.1500140 GAMMA50   -> simulation time     2439.24 seconds
+     -   33 -> 28479.1509875 GAMMA50   -> simulation time     2523.35 seconds
+     -   34 -> 28479.1519610 GAMMA50   -> simulation time     2607.46 seconds
+     -   35 -> 28479.1529345 GAMMA50   -> simulation time     2691.58 seconds
+     -   36 -> 28479.1539081 GAMMA50   -> simulation time     2775.69 seconds
+     -   37 -> 28479.1548816 GAMMA50   -> simulation time     2859.80 seconds
+     -   38 -> 28479.1558551 GAMMA50   -> simulation time     2943.91 seconds
+     -   39 -> 28479.1568286 GAMMA50   -> simulation time     3028.02 seconds
+     -   40 -> 28479.1578021 GAMMA50   -> simulation time     3112.13 seconds
+     -   41 -> 28479.1587756 GAMMA50   -> simulation time     3196.25 seconds
+     -   42 -> 28479.1597492 GAMMA50   -> simulation time     3280.36 seconds
+     -   43 -> 28479.1607227 GAMMA50   -> simulation time     3364.47 seconds
+     -   44 -> 28479.1616962 GAMMA50   -> simulation time     3448.58 seconds
+     -   45 -> 28479.1626697 GAMMA50   -> simulation time     3532.69 seconds
+     -   46 -> 28479.1636432 GAMMA50   -> simulation time     3616.80 seconds
+     -   47 -> 28479.1646167 GAMMA50   -> simulation time     3700.92 seconds
+     -   48 -> 28479.1655902 GAMMA50   -> simulation time     3785.03 seconds
+     -   49 -> 28479.1665638 GAMMA50   -> simulation time     3869.14 seconds
+     -   50 -> 28479.1675373 GAMMA50   -> simulation time     3953.25 seconds
+     -   51 -> 28479.1685108 GAMMA50   -> simulation time     4037.36 seconds
+     -   52 -> 28479.1694843 GAMMA50   -> simulation time     4121.47 seconds
+     -   53 -> 28479.1704578 GAMMA50   -> simulation time     4205.59 seconds
+     -   54 -> 28479.1714313 GAMMA50   -> simulation time     4289.70 seconds
+     -   55 -> 28479.1724049 GAMMA50   -> simulation time     4373.81 seconds
+     -   56 -> 28479.1733784 GAMMA50   -> simulation time     4457.92 seconds
+     -   57 -> 28479.1743519 GAMMA50   -> simulation time     4542.03 seconds
+     -   58 -> 28479.1753254 GAMMA50   -> simulation time     4626.14 seconds
+     -   59 -> 28479.1762989 GAMMA50   -> simulation time     4710.26 seconds
+     -   60 -> 28479.1772724 GAMMA50   -> simulation time     4794.37 seconds
+     -   61 -> 28479.1782459 GAMMA50   -> simulation time     4878.48 seconds
+     -   62 -> 28479.1792195 GAMMA50   -> simulation time     4962.59 seconds
+     -   63 -> 28479.1801930 GAMMA50   -> simulation time     5046.70 seconds
+     -   64 -> 28479.1811665 GAMMA50   -> simulation time     5130.82 seconds
+     -   65 -> 28479.1821400 GAMMA50   -> simulation time     5214.93 seconds
+     -   66 -> 28479.1831135 GAMMA50   -> simulation time     5299.04 seconds
+     -   67 -> 28479.1840870 GAMMA50   -> simulation time     5383.15 seconds
+     -   68 -> 28479.1844763 GAMMA50   -> simulation time     5416.78 seconds
+     -   69 -> 28479.1845932 GAMMA50   -> simulation time     5426.89 seconds
+     -   70 -> 28479.1850606 GAMMA50   -> simulation time     5467.26 seconds
+     -   71 -> 28479.1860341 GAMMA50   -> simulation time     5551.37 seconds
+     -   72 -> 28479.1870076 GAMMA50   -> simulation time     5635.49 seconds
+     -   73 -> 28479.1879811 GAMMA50   -> simulation time     5719.60 seconds
+     -   74 -> 28479.1889546 GAMMA50   -> simulation time     5803.71 seconds
+     -   75 -> 28479.1899281 GAMMA50   -> simulation time     5887.82 seconds
+     -   76 -> 28479.1909016 GAMMA50   -> simulation time     5971.93 seconds
+     -   77 -> 28479.1918746 GAMMA50   -> simulation time     6056.00 seconds
+ - number of kinematics bodies    : 0
+ - mission kind                   :  Static
+
+
+DUMP BOX
+--------
+
+    Box Min / Max Points :
+        - -0.001803  -0.001803  -0.001803
+        - 0.101803  0.101803  0.301803
+    Corrected Box size :
+        - 0.0148009  0.0148009  0.0144574
+    Number of divisions :
+        - nb_surf  :  12
+        => div_x   :  7
+        => div_y   :  7
+        => div_z   :  21
+    Divisions min / max dimensions :
+        - 0.0144574  0.0148009
+
+State  5 : REF ray-tracing                                                     Time :  Tue Dec 13 14:46:01 2022
+
+State  6 : Symmetrization of Matrix                                            Time :  Tue Dec 13 14:46:01 2022
+
+
+
+View Factor Absolute Symmetrisation Error :
+-------------------------------------------
+
+    |------------------------------------------------------|
+    | VF symmetrisation error above       10 % :           |
+    |------------------------------------------------------|
+    |         Emission Node    | Rays  Emitted |   Error   |
+    |--------------------------|---------------|-----------|
+    |------------------------------------------------------|
+    | VF sym error between        5 % and       10 %:      |
+    |------------------------------------------------------|
+    |         Emission Node    | Rays  Emitted |   Error   |
+    |--------------------------|---------------|-----------|
+    |------------------------------------------------------|
+    | VF sym error between        1 % and        5 %:      |
+    |------------------------------------------------------|
+    |         Emission Node    | Rays  Emitted |   Error   |
+    |--------------------------|---------------|-----------|
+    |------------------------------------------------------|
+    | Number of error below     1 %     12 (     100 %)    |
+    |------------------------------------------------------|
+
+
+
+
+Radiative Exchange Factor Absolute Symmetrisation Error :
+---------------------------------------------------------
+
+    |------------------------------------------------------|
+    | REF symmetrisation error above       10 % :          |
+    |------------------------------------------------------|
+    |         Emission Node    | Rays  Emitted |   Error   |
+    |--------------------------|---------------|-----------|
+    |------------------------------------------------------|
+    | REF sym error between        5 % and       10 %:     |
+    |------------------------------------------------------|
+    |         Emission Node    | Rays  Emitted |   Error   |
+    |--------------------------|---------------|-----------|
+    |------------------------------------------------------|
+    | REF sym error between        1 % and        5 %:     |
+    |------------------------------------------------------|
+    |         Emission Node    | Rays  Emitted |   Error   |
+    |--------------------------|---------------|-----------|
+    |------------------------------------------------------|
+    | Number of error below     1 %     12 (     100 %)    |
+    |------------------------------------------------------|
+
+
+State  7 : Radiation Check-list generation                                     Time :  Tue Dec 13 14:46:01 2022
+
+
+
+View Factor Budget :   (maximum error = 0.329603 %)
+--------------------
+
+    |-------------------------------------------------------------------|
+    |       VF sum : error above       10 % :                           |
+    |-------------------------------------------------------------------|
+    |         Emission Node    | Rays  Emitted |   VF sum   |   Error   |
+    |--------------------------|---------------|------------|-----------|
+    |-------------------------------------------------------------------|
+    |       VF sum : error between        5 % and       10 %:           |
+    |-------------------------------------------------------------------|
+    |         Emission Node    | Rays  Emitted |   VF sum   |   Error   |
+    |--------------------------|---------------|------------|-----------|
+    |-------------------------------------------------------------------|
+    |       VF sum : error between        1 % and        5 %:           |
+    |-------------------------------------------------------------------|
+    |         Emission Node    | Rays  Emitted |   VF sum   |   Error   |
+    |--------------------------|---------------|------------|-----------|
+    |-------------------------------------------------------------------|
+    | Number of View Factor below     1 % of error:     12 (     100 %) |
+    |-------------------------------------------------------------------|
+
+
+
+IR Gebhart Factor Budget :   (maximum error = 0.132356 %)
+--------------------------
+
+    |-------------------------------------------------------------------|
+    |       REF  sum : error above       10 % :                         |
+    |-------------------------------------------------------------------|
+    |         Emission Node    | Rays  Emitted |  REF sum   |   Error   |
+    |--------------------------|---------------|------------|-----------|
+    |-------------------------------------------------------------------|
+    |       REF  sum : error between        5 % and       10 %:         |
+    |-------------------------------------------------------------------|
+    |         Emission Node    | Rays  Emitted |  REF sum   |   Error   |
+    |--------------------------|---------------|------------|-----------|
+    |-------------------------------------------------------------------|
+    |       REF  sum : error between        1 % and        5 %:         |
+    |-------------------------------------------------------------------|
+    |         Emission Node    | Rays  Emitted |  REF sum   |   Error   |
+    |--------------------------|---------------|------------|-----------|
+    |-------------------------------------------------------------------|
+    | Number of REF (IR) below      1 % of error:     12 (     100 %)   |
+    |-------------------------------------------------------------------|
+
+
+
+Inactive Impingements Budget:  (GV)
+-----------------------------------
+
+    |--------------------------------------------------------------------------------|
+    |       GV Inactive Impingements level above         50 % :                      |
+    |--------------------------------------------------------------------------------|
+    |         Emission Node    | Rays  Emitted | Rays Impinged | Impingement percent |
+    |--------------------------|---------------|---------------|---------------------|
+    |--------------------------------------------------------------------------------|
+    |       GV Inactive Impingements level between       25 % and       50 % :       |
+    |--------------------------------------------------------------------------------|
+    |         Emission Node    | Rays  Emitted | Rays Impinged | Impingement percent |
+    |--------------------------|---------------|---------------|---------------------|
+    |--------------------------------------------------------------------------------|
+    |       GV Inactive Impingements level below         25 % :       0   (     0 %) |
+    |--------------------------------------------------------------------------------|
+    |       Number of nodes with zero inactive impingement (GV):      12   (   100 %)|
+    |--------------------------------------------------------------------------------|
+
+
+
+
+Low Space Couplings :
+---------------------
+
+    |------------------------------------------------------------------|
+    |  Number of nodes without space couplings:      6  (      50 %)   |
+    |------------------------------------------------------------------|
+    |         Emission Node    | Rays  Emitted | Direct VF |   IR REF  |
+    |--------------------------|---------------|-----------|-----------|
+    |------------------------------------------------------------------|
+    | Number of nodes above     5 % IR Space REF:      6 (      50 %)  |
+    |------------------------------------------------------------------|
+
+
+State  8 : Network Output Generation                                           Time :  Tue Dec 13 14:46:01 2022
+

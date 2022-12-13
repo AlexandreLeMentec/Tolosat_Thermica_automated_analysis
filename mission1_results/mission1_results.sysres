@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SYSML SYSML_VERSION="1.7" CONTENTS="RESULT" SAVEDATE="1670939164" SYSTEMA_VERSION="4.9.0">
+    <RESULT NAME="mission1_results">
+        <RESULT_SET FILE_TYPE="MISSION_SET" FILE_PATH="C:/Users/33614/Documents/GitHub/Tolosat_Thermica_automated_analysis/mission1_results/mission1.sysset" TYPE="FILE" FILE_NAME="mission1.sysset" FILE_FORMAT="sysset"/>
+        <RESULT_SET FILE_TYPE="MISSION_DATA" FILE_PATH="C:/Users/33614/Documents/GitHub/Tolosat_Thermica_automated_analysis/mission1_results/mission1.html" TYPE="FILE" FILE_NAME="mission1.html" FILE_FORMAT="html"/>
+        <RESULT_SET FILE_TYPE="HDF5" FILE_PATH="C:/Users/33614/Documents/GitHub/Tolosat_Thermica_automated_analysis/mission1_results/mission1.rad.h5" TYPE="FILE" FILE_NAME="mission1.rad.h5" FILE_FORMAT="h5"/>
+        <RESULT_SET FILE_TYPE="HDF5" FILE_PATH="C:/Users/33614/Documents/GitHub/Tolosat_Thermica_automated_analysis/mission1_results/mission1.box.h5" TYPE="FILE" FILE_NAME="mission1.box.h5" FILE_FORMAT="h5"/>
+        <RESULT_SET FILE_TYPE="TXT" FILE_PATH="C:/Users/33614/Documents/GitHub/Tolosat_Thermica_automated_analysis/mission1_results/mission1.rad.log" TYPE="FILE" FILE_NAME="mission1.rad.log" FILE_FORMAT="LOG"/>
+        <RESULT_SET FILE_TYPE="TXT" FILE_PATH="C:/Users/33614/Documents/GitHub/Tolosat_Thermica_automated_analysis/mission1_results/mission1.gr.nwk" TYPE="FILE" FILE_NAME="mission1.gr.nwk" FILE_FORMAT="NWK"/>
+    </RESULT>
+</SYSML>

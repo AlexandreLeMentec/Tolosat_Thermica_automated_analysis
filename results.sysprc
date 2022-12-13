@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<SYSML SYSML_VERSION="1.7" CONTENTS="PROCESSING" SAVEDATE="1669833006" SYSTEMA_VERSION="4.9.0">
+<SYSML SYSML_VERSION="1.7" CONTENTS="PROCESSING" SAVEDATE="1670940138" SYSTEMA_VERSION="4.9.0">
     <DATA_STRUCTURE NAME="results.sysprc" REFSET_ID="{851c0060-a046-45bd-b288-510dd9ac37e6}">
         <DATA_NODE TYPE="PROCESSING" REFOBJ_ID="2" NAME="New Processing">
             <DATA_NODE TYPE="PROCESSING" REFOBJ_ID="3" NAME="ProcessesRep">
@@ -14,20 +14,17 @@
                         <ELEM TYPE="CURMISSIONREF_ELEM">
                             <ELEM TYPE="STRING" STR="Mission"/>
                             <ELEM FILE_PATH="" TYPE="FILE_DESCRIPTION" FILE_FORMAT="" FILE_RELATIVE_PATH=""/>
-                            <ELEM FILE_PATH="C:/Users/Rodrigo/Desktop/Thermal_IR/mission1.sysmis" TYPE="FILE_DESCRIPTION" FILE_FORMAT="" FILE_RELATIVE_PATH="./mission1.sysmis"/>
+                            <ELEM FILE_PATH="C:/Users/33614/Documents/GitHub/Tolosat_Thermica_automated_analysis/mission1.sysmis" TYPE="FILE_DESCRIPTION" FILE_FORMAT="" FILE_RELATIVE_PATH="./mission1.sysmis"/>
                             <ELEM FILE_PATH="" TYPE="FILE_DESCRIPTION" FILE_FORMAT="" FILE_RELATIVE_PATH=""/>
                             <ELEM TYPE="STRING" STR="Default"/>
                         </ELEM>
                     </NODE_ATTRIBUTE>
                     <NODE_ATTRIBUTE TYPE="PROCESS_LASTRUN" NAME="PROCESS_LASTRUN">
-                        <ELEM TYPE="VALUE" VALUE="1669832864"/>
+                        <ELEM TYPE="VALUE" VALUE="1670939157"/>
                     </NODE_ATTRIBUTE>
                 </DATA_NODE>
-                <DATA_NODE LASTCHANGE="1669831867" TYPE="PROCESS" REFOBJ_ID="42" NAME="Nodal_Description">
+                <DATA_NODE LASTCHANGE="1670938843" TYPE="PROCESS" REFOBJ_ID="42" NAME="Nodal_Description">
                     <NODE_ATTRIBUTE PROCESS_NAME="Nodal_Description" APP_NAME="Thermica" TYPE="PROCESS_DEF" NAME="PROCESS_DEF"/>
-                    <NODE_ATTRIBUTE TYPE="RUN PARAMETERS" NAME="RUN PARAMETERS">
-                        <ELEM TYPE="RUN_PARAMETERS" ID="RUN_PARAMETERS"/>
-                    </NODE_ATTRIBUTE>
                     <NODE_ATTRIBUTE TYPE="DIAGNODE_REF" NAME="IN1" POSITION="0">
                         <ELEM TYPE="DNLINK" REFOBJ_ID="44" REFSET_ID="" SELF="false"/>
                     </NODE_ATTRIBUTE>
@@ -43,12 +40,12 @@
                     <NODE_ATTRIBUTE TYPE="PROCESS_LASTRUN" NAME="PROCESS_LASTRUN">
                         <ELEM TYPE="VALUE" VALUE="1669832889"/>
                     </NODE_ATTRIBUTE>
-                </DATA_NODE>
-                <DATA_NODE LASTCHANGE="1669831873" TYPE="PROCESS" REFOBJ_ID="50" NAME="Radiation">
-                    <NODE_ATTRIBUTE PROCESS_NAME="Radiation" APP_NAME="Thermica" TYPE="PROCESS_DEF" NAME="PROCESS_DEF"/>
                     <NODE_ATTRIBUTE TYPE="RUN PARAMETERS" NAME="RUN PARAMETERS">
                         <ELEM TYPE="RUN_PARAMETERS" ID="RUN_PARAMETERS"/>
                     </NODE_ATTRIBUTE>
+                </DATA_NODE>
+                <DATA_NODE LASTCHANGE="1670938843" TYPE="PROCESS" REFOBJ_ID="50" NAME="Radiation">
+                    <NODE_ATTRIBUTE PROCESS_NAME="Radiation" APP_NAME="Thermica" TYPE="PROCESS_DEF" NAME="PROCESS_DEF"/>
                     <NODE_ATTRIBUTE TYPE="DIAGNODE_REF" NAME="IN0" POSITION="1">
                         <ELEM TYPE="DNLINK" REFOBJ_ID="26" REFSET_ID="" SELF="false"/>
                     </NODE_ATTRIBUTE>
@@ -76,12 +73,12 @@
                     <NODE_ATTRIBUTE TYPE="PROCESS_LASTRUN" NAME="PROCESS_LASTRUN">
                         <ELEM TYPE="VALUE" VALUE="1669832869"/>
                     </NODE_ATTRIBUTE>
-                </DATA_NODE>
-                <DATA_NODE LASTCHANGE="1669831881" TYPE="PROCESS" REFOBJ_ID="66" NAME="Solar_Flux">
-                    <NODE_ATTRIBUTE PROCESS_NAME="Solar_Flux" APP_NAME="Thermica" TYPE="PROCESS_DEF" NAME="PROCESS_DEF"/>
                     <NODE_ATTRIBUTE TYPE="RUN PARAMETERS" NAME="RUN PARAMETERS">
                         <ELEM TYPE="RUN_PARAMETERS" ID="RUN_PARAMETERS"/>
                     </NODE_ATTRIBUTE>
+                </DATA_NODE>
+                <DATA_NODE LASTCHANGE="1670938843" TYPE="PROCESS" REFOBJ_ID="66" NAME="Solar_Flux">
+                    <NODE_ATTRIBUTE PROCESS_NAME="Solar_Flux" APP_NAME="Thermica" TYPE="PROCESS_DEF" NAME="PROCESS_DEF"/>
                     <NODE_ATTRIBUTE TYPE="DIAGNODE_REF" NAME="IN0" POSITION="2">
                         <ELEM TYPE="DNLINK" REFOBJ_ID="26" REFSET_ID="" SELF="false"/>
                     </NODE_ATTRIBUTE>
@@ -103,12 +100,12 @@
                     <NODE_ATTRIBUTE TYPE="PROCESS_LASTRUN" NAME="PROCESS_LASTRUN">
                         <ELEM TYPE="VALUE" VALUE="1669832884"/>
                     </NODE_ATTRIBUTE>
-                </DATA_NODE>
-                <DATA_NODE LASTCHANGE="1669831885" TYPE="PROCESS" REFOBJ_ID="78" NAME="Planet_Fluxes">
-                    <NODE_ATTRIBUTE PROCESS_NAME="Planet_Fluxes" APP_NAME="Thermica" TYPE="PROCESS_DEF" NAME="PROCESS_DEF"/>
                     <NODE_ATTRIBUTE TYPE="RUN PARAMETERS" NAME="RUN PARAMETERS">
                         <ELEM TYPE="RUN_PARAMETERS" ID="RUN_PARAMETERS"/>
                     </NODE_ATTRIBUTE>
+                </DATA_NODE>
+                <DATA_NODE LASTCHANGE="1670938843" TYPE="PROCESS" REFOBJ_ID="78" NAME="Planet_Fluxes">
+                    <NODE_ATTRIBUTE PROCESS_NAME="Planet_Fluxes" APP_NAME="Thermica" TYPE="PROCESS_DEF" NAME="PROCESS_DEF"/>
                     <NODE_ATTRIBUTE TYPE="DIAGNODE_REF" NAME="IN0" POSITION="3">
                         <ELEM TYPE="DNLINK" REFOBJ_ID="26" REFSET_ID="" SELF="false"/>
                     </NODE_ATTRIBUTE>
@@ -133,8 +130,11 @@
                     <NODE_ATTRIBUTE TYPE="PROCESS_LASTRUN" NAME="PROCESS_LASTRUN">
                         <ELEM TYPE="VALUE" VALUE="1669832878"/>
                     </NODE_ATTRIBUTE>
+                    <NODE_ATTRIBUTE TYPE="RUN PARAMETERS" NAME="RUN PARAMETERS">
+                        <ELEM TYPE="RUN_PARAMETERS" ID="RUN_PARAMETERS"/>
+                    </NODE_ATTRIBUTE>
                 </DATA_NODE>
-                <DATA_NODE LASTCHANGE="1669832282" TYPE="PROCESS" REFOBJ_ID="92" NAME="Skeleton">
+                <DATA_NODE LASTCHANGE="1670938843" TYPE="PROCESS" REFOBJ_ID="92" NAME="Skeleton">
                     <NODE_ATTRIBUTE PROCESS_NAME="Skeleton" APP_NAME="Thermisol" TYPE="PROCESS_DEF" NAME="PROCESS_DEF"/>
                     <NODE_ATTRIBUTE TYPE="DIAGNODE_REF" NAME="IN0" POSITION="0">
                         <ELEM TYPE="DNLINK" REFOBJ_ID="94" REFSET_ID="" SELF="false"/>
@@ -174,6 +174,9 @@
                     </NODE_ATTRIBUTE>
                     <NODE_ATTRIBUTE TYPE="DIAGNODE_REF" NAME="IN1" POSITION="0">
                         <ELEM TYPE="DNLINK" REFOBJ_ID="48" REFSET_ID="" SELF="false"/>
+                    </NODE_ATTRIBUTE>
+                    <NODE_ATTRIBUTE TYPE="PROCESS_LASTRUN" NAME="PROCESS_LASTRUN">
+                        <ELEM TYPE="VALUE" VALUE="1669832895"/>
                     </NODE_ATTRIBUTE>
                     <NODE_ATTRIBUTE TYPE="RUN PARAMETERS" NAME="RUN PARAMETERS">
                         <ELEM TYPE="RUN_PARAMETERS" ID="RUN_PARAMETERS">
@@ -293,15 +296,9 @@
                             </ELEM>
                         </ELEM>
                     </NODE_ATTRIBUTE>
-                    <NODE_ATTRIBUTE TYPE="PROCESS_LASTRUN" NAME="PROCESS_LASTRUN">
-                        <ELEM TYPE="VALUE" VALUE="1669832895"/>
-                    </NODE_ATTRIBUTE>
                 </DATA_NODE>
-                <DATA_NODE LASTCHANGE="1669831935" TYPE="PROCESS" REFOBJ_ID="120" NAME="Solver">
+                <DATA_NODE LASTCHANGE="1670938843" TYPE="PROCESS" REFOBJ_ID="120" NAME="Solver">
                     <NODE_ATTRIBUTE PROCESS_NAME="Solver" APP_NAME="Thermisol" TYPE="PROCESS_DEF" NAME="PROCESS_DEF"/>
-                    <NODE_ATTRIBUTE TYPE="RUN PARAMETERS" NAME="RUN PARAMETERS">
-                        <ELEM TYPE="RUN_PARAMETERS" ID="RUN_PARAMETERS"/>
-                    </NODE_ATTRIBUTE>
                     <NODE_ATTRIBUTE TYPE="DIAGNODE_REF" NAME="IN1" POSITION="0">
                         <ELEM TYPE="DNLINK" REFOBJ_ID="124" REFSET_ID="" SELF="false"/>
                     </NODE_ATTRIBUTE>
@@ -323,8 +320,11 @@
                     <NODE_ATTRIBUTE TYPE="PROCESS_LASTRUN" NAME="PROCESS_LASTRUN">
                         <ELEM TYPE="VALUE" VALUE="1669832901"/>
                     </NODE_ATTRIBUTE>
+                    <NODE_ATTRIBUTE TYPE="RUN PARAMETERS" NAME="RUN PARAMETERS">
+                        <ELEM TYPE="RUN_PARAMETERS" ID="RUN_PARAMETERS"/>
+                    </NODE_ATTRIBUTE>
                 </DATA_NODE>
-                <DATA_NODE LASTCHANGE="1669832243" TYPE="PROCESS" REFOBJ_ID="134" NAME="Posther">
+                <DATA_NODE LASTCHANGE="1670938843" TYPE="PROCESS" REFOBJ_ID="134" NAME="Posther">
                     <NODE_ATTRIBUTE PROCESS_NAME="Posther" APP_NAME="Thermisol" TYPE="PROCESS_DEF" NAME="PROCESS_DEF"/>
                     <NODE_ATTRIBUTE TYPE="DIAGNODE_REF" NAME="OUT0" POSITION="0">
                         <ELEM TYPE="DNLINK" REFOBJ_ID="138" REFSET_ID="" SELF="false"/>
@@ -334,6 +334,9 @@
                     </NODE_ATTRIBUTE>
                     <NODE_ATTRIBUTE TYPE="DIAGNODE_REF" NAME="IN0" POSITION="0">
                         <ELEM TYPE="DNLINK" REFOBJ_ID="132" REFSET_ID="" SELF="false"/>
+                    </NODE_ATTRIBUTE>
+                    <NODE_ATTRIBUTE TYPE="PROCESS_LASTRUN" NAME="PROCESS_LASTRUN">
+                        <ELEM TYPE="VALUE" VALUE="1669832906"/>
                     </NODE_ATTRIBUTE>
                     <NODE_ATTRIBUTE TYPE="RUN PARAMETERS" NAME="RUN PARAMETERS">
                         <ELEM TYPE="RUN_PARAMETERS" ID="RUN_PARAMETERS">
@@ -361,19 +364,12 @@
                             </ELEM>
                         </ELEM>
                     </NODE_ATTRIBUTE>
-                    <NODE_ATTRIBUTE TYPE="PROCESS_LASTRUN" NAME="PROCESS_LASTRUN">
-                        <ELEM TYPE="VALUE" VALUE="1669832906"/>
-                    </NODE_ATTRIBUTE>
                 </DATA_NODE>
             </DATA_NODE>
             <DATA_NODE TYPE="PROCESSING" REFOBJ_ID="4" NAME="FilesRep">
                 <DATA_NODE TYPE="FILE" REFOBJ_ID="26" NAME="FILE">
                     <NODE_ATTRIBUTE TYPE="DIAGNODE_REF" NAME="IN0" POSITION="0">
                         <ELEM TYPE="DNLINK" REFOBJ_ID="24" REFSET_ID="" SELF="false"/>
-                    </NODE_ATTRIBUTE>
-                    <NODE_ATTRIBUTE TYPE="FILE_DESC_ATT" NAME="FILE">
-                        <ELEM TYPE="STRING" STR="$(mission_name).sysset"/>
-                        <ELEM TYPE="BOOLEAN" NAME="Activated file" VALUE="true"/>
                     </NODE_ATTRIBUTE>
                     <NODE_ATTRIBUTE TYPE="DIAGNODE_REF" NAME="OUT0" POSITION="0">
                         <ELEM TYPE="DNLINK" REFOBJ_ID="42" REFSET_ID="" SELF="false"/>
@@ -387,6 +383,10 @@
                     <NODE_ATTRIBUTE TYPE="DIAGNODE_REF" NAME="OUT3" POSITION="0">
                         <ELEM TYPE="DNLINK" REFOBJ_ID="0" REFSET_ID="" SELF="false"/>
                     </NODE_ATTRIBUTE>
+                    <NODE_ATTRIBUTE TYPE="FILE_DESC_ATT" NAME="FILE">
+                        <ELEM TYPE="STRING" STR="$(mission_name).sysset"/>
+                        <ELEM TYPE="BOOLEAN" NAME="Activated file" VALUE="true"/>
+                    </NODE_ATTRIBUTE>
                 </DATA_NODE>
                 <DATA_NODE TYPE="FILE" REFOBJ_ID="28" NAME="FILE (1)">
                     <NODE_ATTRIBUTE TYPE="DIAGNODE_REF" NAME="IN0" POSITION="1">
@@ -398,12 +398,12 @@
                     </NODE_ATTRIBUTE>
                 </DATA_NODE>
                 <DATA_NODE TYPE="FILE" REFOBJ_ID="44" NAME="FILE (7)">
-                    <NODE_ATTRIBUTE TYPE="FILE_DESC_ATT" NAME="FILE">
-                        <ELEM FILE_PATH="backward.h5" TYPE="FILE_DESCRIPTION" FILE_FORMAT="h5" FILE_RELATIVE_PATH=""/>
-                        <ELEM TYPE="BOOLEAN" NAME="Activated file" VALUE="false"/>
-                    </NODE_ATTRIBUTE>
                     <NODE_ATTRIBUTE TYPE="DIAGNODE_REF" NAME="OUT0" POSITION="1">
                         <ELEM TYPE="DNLINK" REFOBJ_ID="42" REFSET_ID="" SELF="false"/>
+                    </NODE_ATTRIBUTE>
+                    <NODE_ATTRIBUTE TYPE="FILE_DESC_ATT" NAME="FILE">
+                        <ELEM FILE_PATH="C:/Users/33614/Documents/GitHub/Tolosat_Thermica_automated_analysis/backward.h5" TYPE="FILE_DESCRIPTION" FILE_FORMAT="h5" FILE_RELATIVE_PATH="./backward.h5"/>
+                        <ELEM TYPE="BOOLEAN" NAME="Activated file" VALUE="false"/>
                     </NODE_ATTRIBUTE>
                 </DATA_NODE>
                 <DATA_NODE TYPE="FILE" REFOBJ_ID="46" NAME="FILE (8)">
@@ -539,12 +539,12 @@
                     </NODE_ATTRIBUTE>
                 </DATA_NODE>
                 <DATA_NODE TYPE="FILE" REFOBJ_ID="82" NAME="FILE (23)">
-                    <NODE_ATTRIBUTE TYPE="FILE_DESC_ATT" NAME="FILE">
-                        <ELEM FILE_PATH="planets.maps" TYPE="FILE_DESCRIPTION" FILE_FORMAT="maps" FILE_RELATIVE_PATH=""/>
-                        <ELEM TYPE="BOOLEAN" NAME="Activated file" VALUE="false"/>
-                    </NODE_ATTRIBUTE>
                     <NODE_ATTRIBUTE TYPE="DIAGNODE_REF" NAME="OUT0" POSITION="2">
                         <ELEM TYPE="DNLINK" REFOBJ_ID="78" REFSET_ID="" SELF="false"/>
+                    </NODE_ATTRIBUTE>
+                    <NODE_ATTRIBUTE TYPE="FILE_DESC_ATT" NAME="FILE">
+                        <ELEM FILE_PATH="C:/Users/33614/Documents/GitHub/Tolosat_Thermica_automated_analysis/planets.maps" TYPE="FILE_DESCRIPTION" FILE_FORMAT="maps" FILE_RELATIVE_PATH="./planets.maps"/>
+                        <ELEM TYPE="BOOLEAN" NAME="Activated file" VALUE="false"/>
                     </NODE_ATTRIBUTE>
                 </DATA_NODE>
                 <DATA_NODE TYPE="FILE" REFOBJ_ID="84" NAME="FILE (24)">
@@ -587,12 +587,12 @@
                     </NODE_ATTRIBUTE>
                 </DATA_NODE>
                 <DATA_NODE TYPE="FILE" REFOBJ_ID="94" NAME="FILE (28)">
-                    <NODE_ATTRIBUTE TYPE="FILE_DESC_ATT" NAME="FILE">
-                        <ELEM FILE_PATH="$(mission_name).ske.nwk" TYPE="FILE_DESCRIPTION" FILE_FORMAT="SKE" FILE_RELATIVE_PATH=""/>
-                        <ELEM TYPE="BOOLEAN" NAME="Activated file" VALUE="false"/>
-                    </NODE_ATTRIBUTE>
                     <NODE_ATTRIBUTE TYPE="DIAGNODE_REF" NAME="OUT0" POSITION="0">
                         <ELEM TYPE="DNLINK" REFOBJ_ID="92" REFSET_ID="" SELF="false"/>
+                    </NODE_ATTRIBUTE>
+                    <NODE_ATTRIBUTE TYPE="FILE_DESC_ATT" NAME="FILE">
+                        <ELEM FILE_PATH="C:/Users/33614/Documents/GitHub/Tolosat_Thermica_automated_analysis/$(mission_name).ske.nwk" TYPE="FILE_DESCRIPTION" FILE_FORMAT="SKE" FILE_RELATIVE_PATH="./$(mission_name).ske.nwk"/>
+                        <ELEM TYPE="BOOLEAN" NAME="Activated file" VALUE="false"/>
                     </NODE_ATTRIBUTE>
                 </DATA_NODE>
                 <DATA_NODE TYPE="FILE" REFOBJ_ID="98" NAME="FILE (30)">
@@ -600,7 +600,7 @@
                         <ELEM TYPE="DNLINK" REFOBJ_ID="92" REFSET_ID="" SELF="false"/>
                     </NODE_ATTRIBUTE>
                     <NODE_ATTRIBUTE TYPE="FILE_DESC_ATT" NAME="FILE">
-                        <ELEM FILE_PATH="" TYPE="FILE_DESCRIPTION" FILE_FORMAT="NWK" FILE_RELATIVE_PATH=""/>
+                        <ELEM FILE_PATH="C:/Users/33614/Documents/GitHub/Tolosat_Thermica_automated_analysis" TYPE="FILE_DESCRIPTION" FILE_FORMAT="NWK" FILE_RELATIVE_PATH="../Tolosat_Thermica_automated_analysis"/>
                         <ELEM TYPE="BOOLEAN" NAME="Activated file" VALUE="false"/>
                     </NODE_ATTRIBUTE>
                 </DATA_NODE>
@@ -609,7 +609,7 @@
                         <ELEM TYPE="DNLINK" REFOBJ_ID="92" REFSET_ID="" SELF="false"/>
                     </NODE_ATTRIBUTE>
                     <NODE_ATTRIBUTE TYPE="FILE_DESC_ATT" NAME="FILE">
-                        <ELEM FILE_PATH="" TYPE="FILE_DESCRIPTION" FILE_FORMAT="NWK" FILE_RELATIVE_PATH=""/>
+                        <ELEM FILE_PATH="C:/Users/33614/Documents/GitHub/Tolosat_Thermica_automated_analysis" TYPE="FILE_DESCRIPTION" FILE_FORMAT="NWK" FILE_RELATIVE_PATH="../Tolosat_Thermica_automated_analysis"/>
                         <ELEM TYPE="BOOLEAN" NAME="Activated file" VALUE="false"/>
                     </NODE_ATTRIBUTE>
                 </DATA_NODE>
@@ -618,7 +618,7 @@
                         <ELEM TYPE="DNLINK" REFOBJ_ID="92" REFSET_ID="" SELF="false"/>
                     </NODE_ATTRIBUTE>
                     <NODE_ATTRIBUTE TYPE="FILE_DESC_ATT" NAME="FILE">
-                        <ELEM FILE_PATH="" TYPE="FILE_DESCRIPTION" FILE_FORMAT="NWK" FILE_RELATIVE_PATH=""/>
+                        <ELEM FILE_PATH="C:/Users/33614/Documents/GitHub/Tolosat_Thermica_automated_analysis" TYPE="FILE_DESCRIPTION" FILE_FORMAT="NWK" FILE_RELATIVE_PATH="../Tolosat_Thermica_automated_analysis"/>
                         <ELEM TYPE="BOOLEAN" NAME="Activated file" VALUE="false"/>
                     </NODE_ATTRIBUTE>
                 </DATA_NODE>
@@ -627,17 +627,17 @@
                         <ELEM TYPE="DNLINK" REFOBJ_ID="92" REFSET_ID="" SELF="false"/>
                     </NODE_ATTRIBUTE>
                     <NODE_ATTRIBUTE TYPE="FILE_DESC_ATT" NAME="FILE">
-                        <ELEM FILE_PATH="C:/Users/Rodrigo/Desktop/Thermal_IR/user_file.txt" TYPE="FILE_DESCRIPTION" FILE_FORMAT="NWK" FILE_RELATIVE_PATH="./user_file.txt"/>
+                        <ELEM FILE_PATH="C:/Users/33614/Documents/GitHub/Tolosat_Thermica_automated_analysis/user_file.txt" TYPE="FILE_DESCRIPTION" FILE_FORMAT="NWK" FILE_RELATIVE_PATH="./user_file.txt"/>
                         <ELEM TYPE="BOOLEAN" NAME="Activated file" VALUE="true"/>
                     </NODE_ATTRIBUTE>
                 </DATA_NODE>
                 <DATA_NODE TYPE="FILE" REFOBJ_ID="112" NAME="FILE (37)">
-                    <NODE_ATTRIBUTE TYPE="FILE_DESC_ATT" NAME="FILE">
-                        <ELEM FILE_PATH="temp.h5" TYPE="FILE_DESCRIPTION" FILE_FORMAT="H5" FILE_RELATIVE_PATH=""/>
-                        <ELEM TYPE="BOOLEAN" NAME="Activated file" VALUE="false"/>
-                    </NODE_ATTRIBUTE>
                     <NODE_ATTRIBUTE TYPE="DIAGNODE_REF" NAME="OUT0" POSITION="9">
                         <ELEM TYPE="DNLINK" REFOBJ_ID="92" REFSET_ID="" SELF="false"/>
+                    </NODE_ATTRIBUTE>
+                    <NODE_ATTRIBUTE TYPE="FILE_DESC_ATT" NAME="FILE">
+                        <ELEM FILE_PATH="C:/Users/33614/Documents/GitHub/Tolosat_Thermica_automated_analysis/temp.h5" TYPE="FILE_DESCRIPTION" FILE_FORMAT="H5" FILE_RELATIVE_PATH="./temp.h5"/>
+                        <ELEM TYPE="BOOLEAN" NAME="Activated file" VALUE="false"/>
                     </NODE_ATTRIBUTE>
                 </DATA_NODE>
                 <DATA_NODE TYPE="FILE" REFOBJ_ID="114" NAME="FILE (38)">
@@ -645,7 +645,7 @@
                         <ELEM TYPE="DNLINK" REFOBJ_ID="92" REFSET_ID="" SELF="false"/>
                     </NODE_ATTRIBUTE>
                     <NODE_ATTRIBUTE TYPE="FILE_DESC_ATT" NAME="FILE">
-                        <ELEM FILE_PATH="" TYPE="FILE_DESCRIPTION" FILE_FORMAT="NWK" FILE_RELATIVE_PATH=""/>
+                        <ELEM FILE_PATH="C:/Users/33614/Documents/GitHub/Tolosat_Thermica_automated_analysis" TYPE="FILE_DESCRIPTION" FILE_FORMAT="NWK" FILE_RELATIVE_PATH="../Tolosat_Thermica_automated_analysis"/>
                         <ELEM TYPE="BOOLEAN" NAME="Activated file" VALUE="false"/>
                     </NODE_ATTRIBUTE>
                 </DATA_NODE>
@@ -671,12 +671,12 @@
                     </NODE_ATTRIBUTE>
                 </DATA_NODE>
                 <DATA_NODE TYPE="FILE" REFOBJ_ID="124" NAME="FILE (42)">
-                    <NODE_ATTRIBUTE TYPE="FILE_DESC_ATT" NAME="FILE">
-                        <ELEM FILE_PATH="$(diagram_name).txt" TYPE="FILE_DESCRIPTION" FILE_FORMAT="TXT" FILE_RELATIVE_PATH=""/>
-                        <ELEM TYPE="BOOLEAN" NAME="Activated file" VALUE="false"/>
-                    </NODE_ATTRIBUTE>
                     <NODE_ATTRIBUTE TYPE="DIAGNODE_REF" NAME="OUT0" POSITION="1">
                         <ELEM TYPE="DNLINK" REFOBJ_ID="120" REFSET_ID="" SELF="false"/>
+                    </NODE_ATTRIBUTE>
+                    <NODE_ATTRIBUTE TYPE="FILE_DESC_ATT" NAME="FILE">
+                        <ELEM FILE_PATH="C:/Users/33614/Documents/GitHub/Tolosat_Thermica_automated_analysis/$(diagram_name).txt" TYPE="FILE_DESCRIPTION" FILE_FORMAT="TXT" FILE_RELATIVE_PATH="./$(diagram_name).txt"/>
+                        <ELEM TYPE="BOOLEAN" NAME="Activated file" VALUE="false"/>
                     </NODE_ATTRIBUTE>
                 </DATA_NODE>
                 <DATA_NODE TYPE="FILE" REFOBJ_ID="126" NAME="FILE (43)">

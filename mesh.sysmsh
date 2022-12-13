@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<SYSML SYSML_VERSION="1.7" CONTENTS="MESHING" SAVEDATE="1669830468" SYSTEMA_VERSION="4.9.0">
+<SYSML SYSML_VERSION="1.7" CONTENTS="MESHING" SAVEDATE="1670940140" SYSTEMA_VERSION="4.9.0">
     <DATA_STRUCTURE NAME="mesh.sysmsh" REFSET_ID="{12e5b733-ab00-41d2-9097-c2951220e7f3}">
         <DATA_NODE TYPE="MESHING" REFOBJ_ID="2" NAME="Meshing">
             <DATA_NODE TYPE="VIRTUAL_NODE" REFOBJ_ID="4" NAME="Specific items">
@@ -90,7 +90,7 @@
                 <NODE_ATTRIBUTE TYPE="REF_ATT" REFOBJ_ID="2" NAME="REF" REFSET_ID="{c2af3c6d-9965-4018-889f-b8f7dcd91ba6}"/>
             </DATA_NODE>
             <NODE_ATTRIBUTE TYPE="MODELREF_ATT" NAME="MODEL">
-                <ELEM FILE_PATH="C:/Users/Rodrigo/Desktop/Thermal_IR/IR_model.sysmdl" TYPE="FILE_DESCRIPTION" FILE_FORMAT="sysmdl" NAME="MODEL" FILE_RELATIVE_PATH="./IR_model.sysmdl"/>
+                <ELEM FILE_PATH="C:/Users/33614/Documents/GitHub/Tolosat_Thermica_automated_analysis/IR_model.sysmdl" TYPE="FILE_DESCRIPTION" FILE_FORMAT="sysmdl" NAME="MODEL" FILE_RELATIVE_PATH="./IR_model.sysmdl"/>
             </NODE_ATTRIBUTE>
             <NODE_ATTRIBUTE TYPE="APP_NAME_ATT" NAME="APPLICATION NAME">
                 <ELEM TYPE="STRING" STR="Thermica"/>
