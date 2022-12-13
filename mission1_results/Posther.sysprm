@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SYSML SYSML_VERSION="1.7" CONTENTS="PROCESS_PARAMETERS" SAVEDATE="1670947335" SYSTEMA_VERSION="4.9.0">
+    <PROCESS_PARAMETERS PROCESS_NAME="Posther" APP_NAME="Thermisol">
+        <NODE_ATTRIBUTE TYPE="RUN PARAMETERS" NAME="RUN PARAMETERS">
+            <ELEM TYPE="RUN_PARAMETERS" ID="RUN_PARAMETERS">
+                <ELEM TYPE="PROC_CATEGORY" ID="Posther">
+                    <ELEM TYPE="STRING" ID="posther_cmd" STR="Times"/>
+                    <ELEM TYPE="STRING" ID="node_spec" STR="ALL"/>
+                    <ELEM TYPE="STRING" ID="node_spec1" STR=""/>
+                    <ELEM TYPE="STRING" ID="node_spec2" STR="ALL"/>
+                    <ELEM TYPE="STRING" ID="interface_spec" STR="$EDGES"/>
+                </ELEM>
+                <ELEM TYPE="PROC_CATEGORY" ID="Time">
+                    <ELEM TYPE="STRING" ID="timespec" STR="No"/>
+                    <ELEM TYPE="VALUE" ID="time1" VALUE="0"/>
+                    <ELEM TYPE="VALUE" ID="time2" VALUE="9000000000"/>
+                </ELEM>
+                <ELEM TYPE="PROC_CATEGORY" ID="Entity">
+                    <ELEM TYPE="STRING" ID="area" STR="Yes"/>
+                    <ELEM TYPE="STRING" ID="capacitance" STR="Yes"/>
+                    <ELEM TYPE="STRING" ID="temperature" STR="Yes"/>
+                    <ELEM TYPE="STRING" ID="qs" STR="Yes"/>
+                    <ELEM TYPE="STRING" ID="qa" STR="Yes"/>
+                    <ELEM TYPE="STRING" ID="qe" STR="Yes"/>
+                    <ELEM TYPE="STRING" ID="qi" STR="Yes"/>
+                    <ELEM TYPE="STRING" ID="qr" STR="Yes"/>
+                </ELEM>
+            </ELEM>
+        </NODE_ATTRIBUTE>
+        <NODE_ATTRIBUTE TYPE="RUN PARAMETERS" NAME="RUN PARAMETERS">
+            <ELEM TYPE="RUN_PARAMETERS" ID="RUN_PARAMETERS"/>
+        </NODE_ATTRIBUTE>
+    </PROCESS_PARAMETERS>
+</SYSML>

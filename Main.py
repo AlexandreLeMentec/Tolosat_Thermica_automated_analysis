@@ -93,10 +93,10 @@ def getPath(element):
 # ------------------------------------------------------------------------
 # variable definition
 board_database = {} # a dictionnary that will contain all the boards and their data
-#model = ModelFile("D:\Astrre\Systema\Systema-4.9.0\python\src\sysModule\tolosat\IR_model.sysmdl")
-#mission = MissionFile("D:\Astrre\Systema\Systema-4.9.0\python\src\sysModule\tolosat\mission1.sysmis")
-#process = ProcessFile("D:\Astrre\Systema\Systema-4.9.0\python\src\sysModule\tolosat\results.sysprc")
-#kine = KinematicsFile("D:\Astrre\Systema\Systema-4.9.0\python\src\sysModule\tolosat\kine.syskin")
+# openModelFile("IR_model.sysmdl")
+# openMissionFile("mission1.sysmis")
+# openProcessFile("results.sysprc")
+# openKinematicsFile("kine.syskin")
 # ------------------------------------------------------------------------
 model = getCurrentModelFile() #we retrieve the model used for the exercise
 Boards = findObject(model.getRoot(), "Boards") #we find the object called "SatBody" in the model # not useful for the moment

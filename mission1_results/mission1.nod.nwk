@@ -1,0 +1,80 @@
+
+#**********************************************#
+#                                              #
+#     Nodal Description created by Thermica    #
+#                                              #
+#**********************************************#
+
+$INFOS
+
+#  Nodal description
+#  --------------------
+#
+#  File : mission1.nod.nwk
+#  Version : Thermica  V.4.9.0 released on September 2020
+#  Executed on : Tue Dec 13 17:01:57 2022
+#  Input files :
+#    - Sysset : mission1.sysset
+
+$GLOBAL
+   $LOCALS
+      # MLI
+      REAL EPS_MLI  = 0.710;
+      REAL ALP_MLI  = 0.520;
+      # Kapton
+      REAL EPS_Kapton  = 0.850;
+      REAL ALP_Kapton  = 0.850;
+$ENDGLOBAL
+
+
+$ENTITIES
+
+$NODES
+
+   # Geometrical Nodes
+  D       100 = '/Walls                  ', T= 0.000, A= 2.000000E-02, C= 0.0000E+00, ALP= ALP_MLI   , EPS= EPS_MLI   ;
+  D       200 = '/Walls                  ', T= 0.000, A= 2.000000E-02, C= 0.0000E+00, ALP= ALP_MLI   , EPS= EPS_MLI   ;
+  D       300 = '/Walls                  ', T= 0.000, A= 6.000000E-02, C= 0.0000E+00, ALP= ALP_MLI   , EPS= EPS_MLI   ;
+  D       400 = '/Walls                  ', T= 0.000, A= 6.000000E-02, C= 0.0000E+00, ALP= ALP_MLI   , EPS= EPS_MLI   ;
+  D       500 = '/Walls                  ', T= 0.000, A= 6.000000E-02, C= 0.0000E+00, ALP= ALP_MLI   , EPS= EPS_MLI   ;
+  D       600 = '/Walls                  ', T= 0.000, A= 6.000000E-02, C= 0.0000E+00, ALP= ALP_MLI   , EPS= EPS_MLI   ;
+  D       700 = '/Cards                  ', T= 0.000, A= 1.956242E-02, C= 0.0000E+00, ALP= ALP_Kapton, EPS= EPS_Kapton;
+  D       800 = '/Cards                  ', T= 0.000, A= 1.956242E-02, C= 0.0000E+00, ALP= ALP_Kapton, EPS= EPS_Kapton;
+  D       900 = '/Cards                  ', T= 0.000, A= 1.956242E-02, C= 0.0000E+00, ALP= ALP_Kapton, EPS= EPS_Kapton;
+  D      1000 = '/Cards                  ', T= 0.000, A= 1.956242E-02, C= 0.0000E+00, ALP= ALP_Kapton, EPS= EPS_Kapton;
+  D      1100 = '/Cards                  ', T= 0.000, A= 1.956242E-02, C= 0.0000E+00, ALP= ALP_Kapton, EPS= EPS_Kapton;
+  D      1200 = '/Cards                  ', T= 0.000, A= 1.956242E-02, C= 0.0000E+00, ALP= ALP_Kapton, EPS= EPS_Kapton;
+
+   # Sensor nodes
+
+   # Space (or environment) node
+  B  99999999 = 'Space Node', T= -269.000;
+
+
+
+
+
+$CONTROLS
+   DATE50 = 2.847912E+04;
+   PERIOD = 6.056000E+03;
+
+
+$EVENTS
+
+   $TIMESTEP
+   $OUTPUT
+      # Earth_PenumbraIN_0   =  0.000000E+00 [PERIOD];
+      # Earth_PenumbraOUT_0  =  1.379583E+03 [PERIOD];
+      # Earth_EclipseIN_1   =  0.000000E+00 [PERIOD];
+      # Earth_EclipseOUT_1  =  1.369384E+03 [PERIOD];
+      # Earth_PenumbraIN_3   =  5.416780E+03 [PERIOD];
+      # Earth_PenumbraOUT_3  =  6.056000E+03 [PERIOD];
+      # Earth_EclipseIN_4   =  5.426887E+03 [PERIOD];
+      # Earth_EclipseOUT_4  =  6.056000E+03 [PERIOD];
+
+
+$ARRAYS
+   CHARACTER* SEQNAME(1) = 'Default';
+
+   REAL* SEQNB(2,*) =
+       0.000000E+00,  1;

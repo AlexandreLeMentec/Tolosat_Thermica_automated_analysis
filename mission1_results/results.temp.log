@@ -1,0 +1,115 @@
+
+*------------------------------------*
+*                                    *
+*   SYSTEMA V4 APPLICATION LOG FILE  *
+*                                    *
+*------------------------------------*
+
+
+
+              **********
+
+      solver Computation
+
+
+Execution started on Tue Dec 13 17:02:08 2022
+
+
+
+State  1 : Creation of user fortran code                                       Time :  Tue Dec 13 17:02:08 2022
+
+"D:\Astrre\Systema\Systema-4.9.0\applications\Thermisol-4.9.0\PreproWIN.exe" "results.dck" "results.temp.out" "results.temp.h5" "results.temp.csv" "results.temp.log" "-" 0
+
+ - Loading input file
+
+
+
+ - Translating Mortran into Fortran
+
+No undeclared symbol has been found. The model is clean.
+
+
+
+
+ Preprocessing : Generation of the binary interface for solving program :
+ ------------------------------------------------------------------------
+
+    Sizes: 
+       - Number of Models : 1
+       - Number of Thermal Nodes  : 13
+       - Number of Thermal Edges  : 0
+       - Number of GL     : 0
+       - Number of GR     : 57
+       - Number of GRWLB  : 0
+       - Number of GF     : 0
+       - Number of Electric Nodes      : 0
+       - Number of Electric Components : 0
+       - Number of Outgassing Nodes      : 0
+       - Number of Outgassing ViewFactor : 0
+    Model 'results': 
+       - Number of Events : 0
+       - Number of Thermal    Nodes : 13
+       - Number of Electric   Nodes : 0
+       - Number of Outgassing Nodes : 0
+
+       - List of unused symbols :
+           -- SEQNAME (char array)
+           -- SEQNB (real array)
+           -- ECLFLG (real array)
+ End of Pre-Processing
+
+State  2 : Compilation of user code                                            Time :  Tue Dec 13 17:02:08 2022
+
+g77 -fno-underscoring -fno-globals -w -c "zz_results_for.f"
+State  3 : Link with solver library                                            Time :  Tue Dec 13 17:02:10 2022
+
+g77 -fno-underscoring -fno-globals -w -o "zz_results_prg_WIN.exe" "zz_results_for.o" "D:\Astrre\Systema\Systema-4.9.0\applications\Thermisol-4.9.0\..\Libsolver-4.9.0\SolverLibWIN.a"  -ladvapi32 -lnetapi32 -lwsock32 "D:\Astrre\Systema\Systema-4.9.0\applications\Thermisol-4.9.0\..\Libsolver-4.9.0\PowerDummyLibWIN.a"
+State  4 : Execution of solution program                                       Time :  Tue Dec 13 17:02:11 2022
+
+.\zz_results_prg_WIN.exe
+THERMISOL 4.9.0 - 64 bits
+AIRBUS Defence and Space SAS - 2021 - All rights reserved
+Information contact : 
+Telephone : +33 (0)5 31 96 80 00
+Email : engineering.software@airbus.com
+
+About license :
+Valid local license found, expires at 30/09/2023
+(file: D:/Astrre/Systema/Systema-4.9.0/licenses\Tolosat_LeMentec.moslf).
+
+
+
+------------------------------------------
+------------ Solution program ------------
+------------------------------------------
+
+
+
+ Number of models : 1
+ Number of thermal nodes : 13
+ Number of thermal edges : 0
+ Number of GLs : 0
+ Number of GRs : 57  (including 0 with wavelength dependencies)
+ Number of GFs : 0
+ Number of electrical nodes : 0
+ Number of electrical componants : 0
+ Number of outgassing nodes : 0
+ Number of outgassing VFs : 0
+
+Computing...
+Text data is output to file        results.temp.out
+Convergence data is output to file results.temp.csv
+Log is output to file              results.temp.log
+H5 data is output to file          results.temp.h5
+
+
+
+End of computation.
+
+
+
+Execution completed on Tue Dec 13 17:02:12 2022
+
+
+
+

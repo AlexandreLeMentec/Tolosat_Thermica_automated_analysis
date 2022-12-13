@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <SYSSET VERSION="1.2" APPLICATION="Thermica">
     <SOURCE_FILES>
-        <FILE PATH="C:/Users/33614/Documents/GitHub/Tolosat_Thermica_automated_analysis/mission1.sysmis" SAVEDATE="1669833007" TYPE="MISSION"/>
+        <FILE PATH="C:/Users/33614/Documents/GitHub/Tolosat_Thermica_automated_analysis/mission1.sysmis" SAVEDATE="1670940139" TYPE="MISSION"/>
         <FILE PATH="C:/Users/33614/Documents/GitHub/Tolosat_Thermica_automated_analysis/IR_model.sysmdl" SAVEDATE="1670938750" TYPE="MODEL"/>
-        <FILE PATH="C:/Users/33614/Documents/GitHub/Tolosat_Thermica_automated_analysis/mesh.sysmsh" SAVEDATE="1669830468" TYPE="MESHING"/>
-        <FILE PATH="C:/Users/33614/Documents/GitHub/Tolosat_Thermica_automated_analysis/trajectory.systrj" SAVEDATE="1669831593" TYPE="TRAJECTORY"/>
+        <FILE PATH="C:/Users/33614/Documents/GitHub/Tolosat_Thermica_automated_analysis/mesh.sysmsh" SAVEDATE="1670940140" TYPE="MESHING"/>
+        <FILE PATH="C:/Users/33614/Documents/GitHub/Tolosat_Thermica_automated_analysis/trajectory.systrj" SAVEDATE="1670945799" TYPE="TRAJECTORY"/>
         <FILE PATH="C:/Users/33614/Documents/GitHub/Tolosat_Thermica_automated_analysis/kine.syskin" SAVEDATE="1669832838" TYPE="KINEMATICS"/>
     </SOURCE_FILES>
     <DESCRIPTION>
