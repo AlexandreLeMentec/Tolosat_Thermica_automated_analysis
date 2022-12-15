@@ -5,4 +5,10 @@ The program used is Systema, airbus's own analysis software in the field of sate
 This code is using the integrated python library of systema.
 
 The following code, mission and model is an intellectual property of Tolosat and should not be copied or used without the proper consent of the Tolosat Bureau.
-Please contact us via 
+
+
+**alter_pos**(card,height)
+>>Function that changes the height of the card. For example, alter_pos('AOCS',-0.02) will change the AOCS board 2 cm in the negative direction.
+
+**swap_pos**(car1,card2)
+>>Function that swaps the position of the two cards provided. For example, swap_pos('AOCS','Iridium') will change the positions of these two boards.
