@@ -12,24 +12,24 @@
       Radiation Computation
 
 
-Execution started on Tue Dec 13 17:01:35 2022
+Execution started on Thu Dec 15 17:08:06 2022
 
 
 
   - Number of active threads : 8 ( / 8 available)
 
-State  1 : Model Initialisation                                                Time :  Tue Dec 13 17:01:35 2022
+State  1 : Model Initialisation                                                Time :  Thu Dec 15 17:08:06 2022
 
-State  2 : Thermal Data Loading                                                Time :  Tue Dec 13 17:01:35 2022
+State  2 : Thermal Data Loading                                                Time :  Thu Dec 15 17:08:06 2022
 
-State  3 : Mission Data Loading                                                Time :  Tue Dec 13 17:01:35 2022
+State  3 : Mission Data Loading                                                Time :  Thu Dec 15 17:08:06 2022
 
 Nb eclipse event: 2
 Nb penumbra event: 2
 Nb arc event: 1
 Nb sequence event: 0
 
-State  4 : Ray-Tracing Initialisation                                          Time :  Tue Dec 13 17:01:35 2022
+State  4 : Ray-Tracing Initialisation                                          Time :  Thu Dec 15 17:08:06 2022
 
 
 
@@ -170,9 +170,9 @@ DUMP BOX
     Divisions min / max dimensions :
         - 0.0144574  0.0148009
 
-State  5 : REF ray-tracing                                                     Time :  Tue Dec 13 17:01:35 2022
+State  5 : REF ray-tracing                                                     Time :  Thu Dec 15 17:08:06 2022
 
-State  6 : Symmetrization of Matrix                                            Time :  Tue Dec 13 17:01:35 2022
+State  6 : Symmetrization of Matrix                                            Time :  Thu Dec 15 17:08:06 2022
 
 
 
@@ -224,7 +224,7 @@ Radiative Exchange Factor Absolute Symmetrisation Error :
     |------------------------------------------------------|
 
 
-State  7 : Radiation Check-list generation                                     Time :  Tue Dec 13 17:01:35 2022
+State  7 : Radiation Check-list generation                                     Time :  Thu Dec 15 17:08:06 2022
 
 
 
@@ -311,12 +311,12 @@ Low Space Couplings :
     |------------------------------------------------------------------|
 
 
-State  8 : Network Output Generation                                           Time :  Tue Dec 13 17:01:35 2022
+State  8 : Network Output Generation                                           Time :  Thu Dec 15 17:08:06 2022
 
 
 
 
-Execution completed on Tue Dec 13 17:01:35 2022
+Execution completed on Thu Dec 15 17:08:06 2022
 
 
 

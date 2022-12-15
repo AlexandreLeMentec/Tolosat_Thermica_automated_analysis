@@ -119,6 +119,26 @@ def alter_pos(card,height):
      board.getGeometry().setPoint(2,Point(board_pos[1][0],board_pos[1][1],board_pos[1][2]))
      board.getGeometry().setPoint(3,Point(board_pos[2][0],board_pos[2][1],board_pos[2][2])) 
 
+def swap_pos(card1, card2):
+    board1 = findShape(model.getRoot(), card1)
+    board2 = findShape(model.getRoot(), card2)
+    board1_shape = ModelShape(board1)
+    board2_shape = ModelShape(board2)
+    board1_pos = [[board1_shape.getGeometry().getPoint(1).getX(), board1_shape.getGeometry().getPoint(1).getY(), board1_shape.getGeometry().getPoint(1).getZ()],
+                 [board1_shape.getGeometry().getPoint(2).getX(), board1_shape.getGeometry().getPoint(2).getY(), board1_shape.getGeometry().getPoint(2).getZ()],
+                 [board1_shape.getGeometry().getPoint(3).getX(), board1_shape.getGeometry().getPoint(3).getY(), board1_shape.getGeometry().getPoint(3).getZ()]]
+    board2_pos = [[board2_shape.getGeometry().getPoint(1).getX(), board2_shape.getGeometry().getPoint(1).getY(), board2_shape.getGeometry().getPoint(1).getZ()],
+                 [board2_shape.getGeometry().getPoint(2).getX(), board2_shape.getGeometry().getPoint(2).getY(), board2_shape.getGeometry().getPoint(2).getZ()],
+                 [board2_shape.getGeometry().getPoint(3).getX(), board2_shape.getGeometry().getPoint(3).getY(), board2_shape.getGeometry().getPoint(3).getZ()]]
+    board1.getGeometry().setPoint(1,Point(board2_pos[0][0],board2_pos[0][1],board2_pos[0][2]))
+    board1.getGeometry().setPoint(2,Point(board2_pos[1][0],board2_pos[1][1],board2_pos[1][2]))
+    board1.getGeometry().setPoint(3,Point(board2_pos[2][0],board2_pos[2][1],board2_pos[2][2]))
+    board2.getGeometry().setPoint(1,Point(board1_pos[0][0],board1_pos[0][1],board1_pos[0][2]))
+    board2.getGeometry().setPoint(2,Point(board1_pos[1][0],board1_pos[1][1],board1_pos[1][2]))
+    board2.getGeometry().setPoint(3,Point(board1_pos[2][0],board1_pos[2][1],board1_pos[2][2]))
+
+swap_pos("AOCS","Iridium")
+
 processing = getCurrentProcessingFile()
 processing.run()
 

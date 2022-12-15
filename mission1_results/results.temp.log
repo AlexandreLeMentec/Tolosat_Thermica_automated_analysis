@@ -12,11 +12,11 @@
       solver Computation
 
 
-Execution started on Tue Dec 13 17:02:08 2022
+Execution started on Thu Dec 15 17:08:35 2022
 
 
 
-State  1 : Creation of user fortran code                                       Time :  Tue Dec 13 17:02:08 2022
+State  1 : Creation of user fortran code                                       Time :  Thu Dec 15 17:08:36 2022
 
 "D:\Astrre\Systema\Systema-4.9.0\applications\Thermisol-4.9.0\PreproWIN.exe" "results.dck" "results.temp.out" "results.temp.h5" "results.temp.csv" "results.temp.log" "-" 0
 
@@ -58,13 +58,13 @@ No undeclared symbol has been found. The model is clean.
            -- ECLFLG (real array)
  End of Pre-Processing
 
-State  2 : Compilation of user code                                            Time :  Tue Dec 13 17:02:08 2022
+State  2 : Compilation of user code                                            Time :  Thu Dec 15 17:08:36 2022
 
 g77 -fno-underscoring -fno-globals -w -c "zz_results_for.f"
-State  3 : Link with solver library                                            Time :  Tue Dec 13 17:02:10 2022
+State  3 : Link with solver library                                            Time :  Thu Dec 15 17:08:36 2022
 
 g77 -fno-underscoring -fno-globals -w -o "zz_results_prg_WIN.exe" "zz_results_for.o" "D:\Astrre\Systema\Systema-4.9.0\applications\Thermisol-4.9.0\..\Libsolver-4.9.0\SolverLibWIN.a"  -ladvapi32 -lnetapi32 -lwsock32 "D:\Astrre\Systema\Systema-4.9.0\applications\Thermisol-4.9.0\..\Libsolver-4.9.0\PowerDummyLibWIN.a"
-State  4 : Execution of solution program                                       Time :  Tue Dec 13 17:02:11 2022
+State  4 : Execution of solution program                                       Time :  Thu Dec 15 17:08:36 2022
 
 .\zz_results_prg_WIN.exe
 THERMISOL 4.9.0 - 64 bits
@@ -108,7 +108,7 @@ End of computation.
 
 
 
-Execution completed on Tue Dec 13 17:02:12 2022
+Execution completed on Thu Dec 15 17:08:38 2022
 
 
 

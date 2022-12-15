@@ -25,7 +25,7 @@
 #
 #  File : mission1.nod.nwk
 #  Version : Thermica  V.4.9.0 released on September 2020
-#  Executed on : Tue Dec 13 17:01:57 2022
+#  Executed on : Thu Dec 15 17:08:25 2022
 #  Input files :
 #    - Sysset : mission1.sysset
 
@@ -39,7 +39,7 @@
 #
 #  File : mission1.gr.nwk
 #  Version : Thermica  V.4.9.0 released on September 2020
-#  Executed on : Tue Dec 13 17:01:35 2022
+#  Executed on : Thu Dec 15 17:08:06 2022
 #  Input files :
 #    - Sysset : mission1.sysset
 #  Parameters :
@@ -68,7 +68,7 @@
 #
 #  File : mission1.pf.nwk
 #  Version : Thermica  V.4.9.0 released on September 2020
-#  Executed on : Tue Dec 13 17:01:46 2022
+#  Executed on : Thu Dec 15 17:08:14 2022
 #  Input files :
 #    - Sysset : mission1.sysset
 #    - Radiative h5 : mission1.box.h5
@@ -92,7 +92,7 @@
 #
 #  File : mission1.sf.nwk
 #  Version : Thermica  V.4.9.0 released on September 2020
-#  Executed on : Tue Dec 13 17:01:51 2022
+#  Executed on : Thu Dec 15 17:08:20 2022
 #  Input files :
 #    - Sysset : mission1.sysset
 #  Parameters :
@@ -235,8 +235,8 @@ $CONDUCTORS
       GR( 200 , 400 )	=	6.552886E-04;
       GR( 200 , 500 )	=	6.629708E-04;
       GR( 200 , 600 )	=	6.622337E-04;
-      GR( 200 , 1100 )	=	7.760757E-06;
-      GR( 200 , 1200 )	=	3.879503E-03;
+      GR( 200 , 1100 )	=	3.879503E-03;
+      GR( 200 , 1200 )	=	7.760757E-06;
       GR( 200 , 99999999 )	=	7.100000E-03;
      #GR( 200 , FILTER )	=	7.240124E-08;	# 5.1E-04 %
    # Couplings from node 300
@@ -248,8 +248,8 @@ $CONDUCTORS
       GR( 300 , 800 )	=	2.032433E-03;
       GR( 300 , 900 )	=	2.219206E-03;
       GR( 300 , 1000 )	=	1.853718E-03;
-      GR( 300 , 1100 )	=	1.857501E-03;
-      GR( 300 , 1200 )	=	1.727597E-03;
+      GR( 300 , 1100 )	=	1.727597E-03;
+      GR( 300 , 1200 )	=	1.857501E-03;
       GR( 300 , 99999999 )	=	2.130000E-02;
    # Couplings from node 400
      #GR( 400 , 400 )	=	9.130240E-04;
@@ -259,8 +259,8 @@ $CONDUCTORS
       GR( 400 , 800 )	=	2.029343E-03;
       GR( 400 , 900 )	=	2.207050E-03;
       GR( 400 , 1000 )	=	1.838858E-03;
-      GR( 400 , 1100 )	=	1.840501E-03;
-      GR( 400 , 1200 )	=	1.709145E-03;
+      GR( 400 , 1100 )	=	1.709145E-03;
+      GR( 400 , 1200 )	=	1.840501E-03;
       GR( 400 , 99999999 )	=	2.130000E-02;
    # Couplings from node 500
      #GR( 500 , 500 )	=	8.643535E-04;
@@ -269,8 +269,8 @@ $CONDUCTORS
       GR( 500 , 800 )	=	2.066993E-03;
       GR( 500 , 900 )	=	2.230806E-03;
       GR( 500 , 1000 )	=	1.877060E-03;
-      GR( 500 , 1100 )	=	1.878382E-03;
-      GR( 500 , 1200 )	=	1.762116E-03;
+      GR( 500 , 1100 )	=	1.762116E-03;
+      GR( 500 , 1200 )	=	1.878382E-03;
       GR( 500 , 99999999 )	=	2.130000E-02;
    # Couplings from node 600
      #GR( 600 , 600 )	=	8.957459E-04;
@@ -278,8 +278,8 @@ $CONDUCTORS
       GR( 600 , 800 )	=	2.061031E-03;
       GR( 600 , 900 )	=	2.221094E-03;
       GR( 600 , 1000 )	=	1.873442E-03;
-      GR( 600 , 1100 )	=	1.872858E-03;
-      GR( 600 , 1200 )	=	1.757991E-03;
+      GR( 600 , 1100 )	=	1.757991E-03;
+      GR( 600 , 1200 )	=	1.872858E-03;
       GR( 600 , 99999999 )	=	2.130000E-02;
    # Couplings from node 700
      #GR( 700 , 700 )	=	1.671155E-03;
@@ -294,20 +294,20 @@ $CONDUCTORS
    # Couplings from node 900
      #GR( 900 , 900 )	=	1.324022E-03;
       GR( 900 , 1000 )	=	3.876285E-03;
-      GR( 900 , 1100 )	=	6.949511E-06;
+      GR( 900 , 1200 )	=	6.949511E-06;
      #GR( 900 , FILTER )	=	6.672489E-08;	# 4.0E-04 %
    # Couplings from node 1000
      #GR( 1000 , 1000 )	=	1.420088E-03;
-      GR( 1000 , 1100 )	=	3.876557E-03;
-      GR( 1000 , 1200 )	=	6.946469E-06;
+      GR( 1000 , 1100 )	=	6.946469E-06;
+      GR( 1000 , 1200 )	=	3.876557E-03;
      #GR( 1000 , FILTER )	=	1.796686E-08;	# 1.1E-04 %
    # Couplings from node 1100
-     #GR( 1100 , 1100 )	=	1.420109E-03;
+     #GR( 1100 , 1100 )	=	1.899299E-03;
       GR( 1100 , 1200 )	=	3.876816E-03;
-     #GR( 1100 , FILTER )	=	5.880354E-09;	# 3.5E-05 %
+     #GR( 1100 , FILTER )	=	1.723552E-08;	# 1.0E-04 %
    # Couplings from node 1200
-     #GR( 1200 , 1200 )	=	1.899299E-03;
-     #GR( 1200 , FILTER )	=	1.723552E-08;	# 1.0E-04 %
+     #GR( 1200 , 1200 )	=	1.420109E-03;
+     #GR( 1200 , FILTER )	=	5.880354E-09;	# 3.5E-05 %
 ##END-USING "mission1.gr.nwk"
 
 

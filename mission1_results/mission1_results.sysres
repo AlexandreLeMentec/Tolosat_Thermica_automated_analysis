@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<SYSML SYSML_VERSION="1.7" CONTENTS="RESULT" SAVEDATE="1670947342" SYSTEMA_VERSION="4.9.0">
+<SYSML SYSML_VERSION="1.7" CONTENTS="RESULT" SAVEDATE="1671120526" SYSTEMA_VERSION="4.9.0">
     <RESULT NAME="mission1_results">
         <RESULT_SET FILE_TYPE="MISSION_SET" FILE_PATH="C:/Users/33614/Documents/GitHub/Tolosat_Thermica_automated_analysis/mission1_results/mission1.sysset" TYPE="FILE" FILE_NAME="mission1.sysset" FILE_FORMAT="sysset"/>
         <RESULT_SET FILE_TYPE="MISSION_DATA" FILE_PATH="C:/Users/33614/Documents/GitHub/Tolosat_Thermica_automated_analysis/mission1_results/mission1.html" TYPE="FILE" FILE_NAME="mission1.html" FILE_FORMAT="html"/>
@@ -18,7 +18,10 @@
         <RESULT_SET FILE_TYPE="TXT" FILE_PATH="C:/Users/33614/Documents/GitHub/Tolosat_Thermica_automated_analysis/mission1_results/mission1.pf.nwk" TYPE="FILE" FILE_NAME="mission1.pf.nwk" FILE_FORMAT="NWK"/>
         <RESULT_SET FILE_TYPE="TXT" FILE_PATH="C:/Users/33614/Documents/GitHub/Tolosat_Thermica_automated_analysis/mission1_results/results.dck" TYPE="FILE" FILE_NAME="results.dck" FILE_FORMAT="DCK"/>
         <RESULT_SET FILE_TYPE="TXT" FILE_PATH="C:/Users/33614/Documents/GitHub/Tolosat_Thermica_automated_analysis/mission1_results/results.temp.log" TYPE="FILE" FILE_NAME="results.temp.log" FILE_FORMAT="LOG"/>
+        <RESULT_SET FILE_TYPE="CSV" FILE_PATH="C:/Users/33614/Documents/GitHub/Tolosat_Thermica_automated_analysis/mission1_results/results.temp.csv" TYPE="FILE" FILE_NAME="results.temp.csv" FILE_FORMAT="CSV"/>
         <RESULT_SET FILE_TYPE="TXT" FILE_PATH="C:/Users/33614/Documents/GitHub/Tolosat_Thermica_automated_analysis/mission1_results/results.temp.out" TYPE="FILE" FILE_NAME="results.temp.out" FILE_FORMAT="OUT"/>
         <RESULT_SET FILE_TYPE="HDF5" FILE_PATH="C:/Users/33614/Documents/GitHub/Tolosat_Thermica_automated_analysis/mission1_results/results.temp.h5" TYPE="FILE" FILE_NAME="results.temp.h5" FILE_FORMAT="h5"/>
+        <RESULT_SET FILE_TYPE="XLS" FILE_PATH="C:/Users/33614/Documents/GitHub/Tolosat_Thermica_automated_analysis/mission1_results/results.xls" TYPE="FILE" FILE_NAME="results.xls" FILE_FORMAT="xls"/>
+        <RESULT_SET FILE_TYPE="TXT" FILE_PATH="C:/Users/33614/Documents/GitHub/Tolosat_Thermica_automated_analysis/mission1_results/results.txt" TYPE="FILE" FILE_NAME="results.txt" FILE_FORMAT="txt"/>
     </RESULT>
 </SYSML>

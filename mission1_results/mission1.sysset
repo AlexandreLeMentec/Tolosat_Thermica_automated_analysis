@@ -1162,9 +1162,9 @@
             <SHAPE REFOBJ_ID="23" NAME="AOCS" MOVING_BODY="MAIN_KINEMATIC_BODY">
                 <GEOMETRY>
                     <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Rectangle">
-                        <ELEM X="0.001" Y="0.001" Z="0.23" TYPE="POINT" NAME="Point 1"/>
-                        <ELEM X="0.0999" Y="0.001" Z="0.23" TYPE="POINT" NAME="Point 2"/>
-                        <ELEM X="0.001" Y="0.0999" Z="0.23" TYPE="POINT" NAME="Point 3"/>
+                        <ELEM X="0.001" Y="0.001" Z="0.27" TYPE="POINT" NAME="Point 1"/>
+                        <ELEM X="0.0999" Y="0.001" Z="0.27" TYPE="POINT" NAME="Point 2"/>
+                        <ELEM X="0.001" Y="0.0999" Z="0.27" TYPE="POINT" NAME="Point 3"/>
                     </ELEM>
                 </GEOMETRY>
                 <PROPERTIES APPLICATION="Thermica">
@@ -1277,9 +1277,9 @@
             <SHAPE REFOBJ_ID="24" NAME="Iridium" MOVING_BODY="MAIN_KINEMATIC_BODY">
                 <GEOMETRY>
                     <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Rectangle">
-                        <ELEM X="0.001" Y="0.001" Z="0.27" TYPE="POINT" NAME="Point 1"/>
-                        <ELEM X="0.0999" Y="0.001" Z="0.27" TYPE="POINT" NAME="Point 2"/>
-                        <ELEM X="0.001" Y="0.0999" Z="0.27" TYPE="POINT" NAME="Point 3"/>
+                        <ELEM X="0.001" Y="0.001" Z="0.23" TYPE="POINT" NAME="Point 1"/>
+                        <ELEM X="0.0999" Y="0.001" Z="0.23" TYPE="POINT" NAME="Point 2"/>
+                        <ELEM X="0.001" Y="0.0999" Z="0.23" TYPE="POINT" NAME="Point 3"/>
                     </ELEM>
                 </GEOMETRY>
                 <PROPERTIES APPLICATION="Thermica">

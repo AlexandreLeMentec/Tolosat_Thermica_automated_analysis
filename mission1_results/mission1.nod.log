@@ -12,18 +12,18 @@
       Nodal Description
 
 
-Execution started on Tue Dec 13 17:01:57 2022
+Execution started on Thu Dec 15 17:08:25 2022
 
 
 
-State  1 : Model Initialisation                                                Time :  Tue Dec 13 17:01:57 2022
+State  1 : Model Initialisation                                                Time :  Thu Dec 15 17:08:25 2022
 
-State  2 : Thermal Data Loading                                                Time :  Tue Dec 13 17:01:57 2022
+State  2 : Thermal Data Loading                                                Time :  Thu Dec 15 17:08:25 2022
 
-State  3 : Contact Management                                                  Time :  Tue Dec 13 17:01:57 2022
+State  3 : Contact Management                                                  Time :  Thu Dec 15 17:08:25 2022
 
 
-State  4 : Mission Data Loading                                                Time :  Tue Dec 13 17:01:57 2022
+State  4 : Mission Data Loading                                                Time :  Thu Dec 15 17:08:25 2022
 
 Nb eclipse event: 2
 Nb penumbra event: 2
@@ -49,14 +49,14 @@ MODEL INFO
    - 
 
 
-State  5 : Network Output generation                                           Time :  Tue Dec 13 17:01:57 2022
+State  5 : Network Output generation                                           Time :  Thu Dec 15 17:08:25 2022
 
-State  6 : Adding specific items                                               Time :  Tue Dec 13 17:01:57 2022
-
-
+State  6 : Adding specific items                                               Time :  Thu Dec 15 17:08:25 2022
 
 
-Execution completed on Tue Dec 13 17:01:57 2022
+
+
+Execution completed on Thu Dec 15 17:08:25 2022
 
 
 

@@ -12,24 +12,24 @@
    Solar Flux Computation
 
 
-Execution started on Tue Dec 13 17:01:51 2022
+Execution started on Thu Dec 15 17:08:19 2022
 
 
 
   - Number of active threads : 8 ( / 8 available)
 
-State  1 : Model Initialisation                                                Time :  Tue Dec 13 17:01:51 2022
+State  1 : Model Initialisation                                                Time :  Thu Dec 15 17:08:19 2022
 
-State  2 : Thermal Data Loading                                                Time :  Tue Dec 13 17:01:51 2022
+State  2 : Thermal Data Loading                                                Time :  Thu Dec 15 17:08:20 2022
 
-State  3 : Mission Data Loading                                                Time :  Tue Dec 13 17:01:51 2022
+State  3 : Mission Data Loading                                                Time :  Thu Dec 15 17:08:20 2022
 
 Nb eclipse event: 2
 Nb penumbra event: 2
 Nb arc event: 1
 Nb sequence event: 0
 
-State  4 : Ray-Tracing Initialisation                                          Time :  Tue Dec 13 17:01:51 2022
+State  4 : Ray-Tracing Initialisation                                          Time :  Thu Dec 15 17:08:20 2022
 
 
 DUMP SOLAR FLUX PARAMETERS
@@ -150,7 +150,7 @@ MODEL INFO
  - number of kinematics bodies    : 0
  - mission kind                   :  Static
 
-State  5 : Sun ray-tracing                                                     Time :  Tue Dec 13 17:01:51 2022
+State  5 : Sun ray-tracing                                                     Time :  Thu Dec 15 17:08:20 2022
 
 Time position 0  -  Into eclipse
 Time position 1  -  Into eclipse
@@ -229,14 +229,14 @@ Time position 73  -  Into eclipse
 Time position 74  -  Into eclipse
 Time position 75  -  Into eclipse
 Time position 76  -  Into eclipse
-State  6 : SolarFlux Check-list generation                                     Time :  Tue Dec 13 17:01:51 2022
+State  6 : SolarFlux Check-list generation                                     Time :  Thu Dec 15 17:08:20 2022
 
-State  7 : Network Output Generation                                           Time :  Tue Dec 13 17:01:51 2022
-
-
+State  7 : Network Output Generation                                           Time :  Thu Dec 15 17:08:20 2022
 
 
-Execution completed on Tue Dec 13 17:01:51 2022
+
+
+Execution completed on Thu Dec 15 17:08:20 2022
 
 
 
