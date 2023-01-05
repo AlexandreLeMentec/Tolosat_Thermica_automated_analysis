@@ -116,7 +116,7 @@ def read_database():
     with open('database.csv', newline='') as database:
         for line in database:
             info = line.split()
-            board_database[info[0]] = [info[1], info[2], info[3], []] # [thickness, dissipation, node]
+            board_database[info[0]] = [info[1], info[2], info[3], []] # [thickness, dissipation, node, maxTemp, minTemp]
 
 def alter_pos(card,height):
      board = findShape(model.getRoot(), card)
