@@ -4,7 +4,28 @@ import math
 
 import openpyxl as xl
 
+
+import openpyxl
+
+def open_results(results_file):
+    # Open the Excel workbook
+    workbook = openpyxl.load_workbook(results_file)
+    
+    # Access the worksheets in the workbook
+    worksheets = workbook.worksheets
+    
+    # Print the names of the worksheets
+    print("Worksheets in the workbook:")
+    for worksheet in worksheets:
+        print(worksheet.title)
+        
+    # Return the workbook
+    return workbook
+
+
+
 card_database = []
+
 card_database += [["Card1", 0.2]]
 
 ######### fonctions de bases utiles pour la programmation #########
