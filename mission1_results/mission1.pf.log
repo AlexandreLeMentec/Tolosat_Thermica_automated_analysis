@@ -12,15 +12,15 @@
    Planet Fluxes Computation
 
 
-Execution started on Thu Dec 15 17:08:11 2022
+Execution started on Thu Jan 05 18:56:59 2023
 
 
 
-State  1 : Model Initialisation                                                Time :  Thu Dec 15 17:08:11 2022
+State  1 : Model Initialisation                                                Time :  Thu Jan 05 18:56:59 2023
 
-State  2 : Thermal Data Loading                                                Time :  Thu Dec 15 17:08:11 2022
+State  2 : Thermal Data Loading                                                Time :  Thu Jan 05 18:56:59 2023
 
-State  3 : Mission Data Loading                                                Time :  Thu Dec 15 17:08:11 2022
+State  3 : Mission Data Loading                                                Time :  Thu Jan 05 18:56:59 2023
 
 Nb eclipse event: 2
 Nb penumbra event: 2
@@ -494,7 +494,7 @@ MODEL INFO
    time     5971.93  	--->  ratio  : 0.000000E+00
    time     6056.00  	--->  ratio  : 0.000000E+00
 
-State  4 : Planetes Fluxes Computation                                         Time :  Thu Dec 15 17:08:11 2022
+State  4 : Planetes Fluxes Computation                                         Time :  Thu Jan 05 18:56:59 2023
 
 Time position 0  -  Sun constant on planet Earth : 1416.95 W/m2
 Time position 1  -  Sun constant on planet Earth : 1416.95 W/m2
@@ -573,12 +573,12 @@ Time position 73  -  Sun constant on planet Earth : 1416.97 W/m2
 Time position 74  -  Sun constant on planet Earth : 1416.97 W/m2
 Time position 75  -  Sun constant on planet Earth : 1416.97 W/m2
 Time position 76  -  Sun constant on planet Earth : 1416.97 W/m2
-State  5 : Network Outputs Generation                                          Time :  Thu Dec 15 17:08:14 2022
+State  5 : Network Outputs Generation                                          Time :  Thu Jan 05 18:57:03 2023
 
 
 
 
-Execution completed on Thu Dec 15 17:08:14 2022
+Execution completed on Thu Jan 05 18:57:03 2023
 
 
 

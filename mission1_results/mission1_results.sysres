@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<SYSML SYSML_VERSION="1.7" CONTENTS="RESULT" SAVEDATE="1671120526" SYSTEMA_VERSION="4.9.0">
+<SYSML SYSML_VERSION="1.7" CONTENTS="RESULT" SAVEDATE="1672941453" SYSTEMA_VERSION="4.9.0">
     <RESULT NAME="mission1_results">
         <RESULT_SET FILE_TYPE="MISSION_SET" FILE_PATH="C:/Users/33614/Documents/GitHub/Tolosat_Thermica_automated_analysis/mission1_results/mission1.sysset" TYPE="FILE" FILE_NAME="mission1.sysset" FILE_FORMAT="sysset"/>
         <RESULT_SET FILE_TYPE="MISSION_DATA" FILE_PATH="C:/Users/33614/Documents/GitHub/Tolosat_Thermica_automated_analysis/mission1_results/mission1.html" TYPE="FILE" FILE_NAME="mission1.html" FILE_FORMAT="html"/>

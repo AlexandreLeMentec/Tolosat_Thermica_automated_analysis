@@ -4,7 +4,7 @@ Thermisol HDF5 result : results.temp.h5
 Thermisol version     : V.4.9.0 released on September 2020
 Input DCK file        : results
 Directory of run      : Unknown
-Date of run           : Ended on  15-Dec-2022  at  17:08:38
+Date of run           : Ended on  05-Jan-2023  at  18:57:26
 1st simulation time   : 28479.1 Julian days
 Simulation time range : 0-30280 sec
 Nodal specification   : ALL
