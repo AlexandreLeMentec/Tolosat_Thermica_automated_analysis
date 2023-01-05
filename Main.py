@@ -4,25 +4,9 @@ import math
 
 import openpyxl as xl
 
+import pandas
 
-import openpyxl
-
-def open_results(results_file):
-    # Open the Excel workbook
-    workbook = openpyxl.load_workbook(results_file)
-    
-    # Access the worksheets in the workbook
-    worksheets = workbook.worksheets
-    
-    # Print the names of the worksheets
-    print("Worksheets in the workbook:")
-    for worksheet in worksheets:
-        print(worksheet.title)
-        
-    # Return the workbook
-    return workbook
-
-
+import os
 
 card_database = []
 
@@ -120,7 +104,8 @@ def getPath(element):
 # openKinematicsFile("kine.syskin")
 # ------------------------------------------------------------------------
 
-board_dict = {} # a dictionnary that will contain all the boards and their data
+board_database = {} # a dictionnary that will contain all the boards and their data
+board_dict = {} # a dictionnary that will contain all the boards and their position
 model = getCurrentModelFile() #we retrieve the model used for the exercise
 Boards = findObject(model.getRoot(), "Boards") #we find the object called "SatBody" in the model # not useful for the moment
 Boards = getSubTree(Boards)
@@ -137,7 +122,7 @@ def read_database():
     with open('database.csv', newline='') as database:
         for line in database:
             info = line.split()
-            board_database[info[0]] = [info[1], info[2], info[3], []] # [thickness, dissipation, node, maxTemp, minTemp]
+            board_database[info[0]] = [info[1], info[2], info[3], info[4], info[5]] # [thickness, dissipation, node, maxTemp, minTemp]
 
 def alter_pos(card,height):
      board = findShape(model.getRoot(), card)
@@ -181,8 +166,20 @@ def swap_pos(card1, card2):
     board2.getGeometry().setPoint(2,Point(board1_pos[1][0],board1_pos[1][1],board1_pos[1][2]))
     board2.getGeometry().setPoint(3,Point(board1_pos[2][0],board1_pos[2][1],board1_pos[2][2]))
 
-def read_results():
-    wb= xl.load_workbook('results.xlsx')
+def open_results(results_file):
+    # Open the Excel workbook
+    workbook = openpyxl.load_workbook(results_file)
+    
+    # Access the worksheets in the workbook
+    worksheets = workbook.worksheets
+    
+    # Print the names of the worksheets
+    print("Worksheets in the workbook:")
+    for worksheet in worksheets:
+        print(worksheet.title)
+        
+    # Return the workbook
+    return workbook
 #swap_pos("AOCS", "Iridium")
 
 # processing = getCurrentProcessingFile()
