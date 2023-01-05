@@ -1,6 +1,6 @@
-Battery         2.4         0       700
-Communication	1.351       0       1000
-Gravimetry      2.6         0       900
-Iridium	        1.46        0       1200
-Magnetorquer	1.86        0       1100
-OBH	            1.546       0       800
+Battery         2.4         0       700        20         10
+Communication	1.351       0       1000       10         10
+Gravimetry      2.6         0       900        20         10
+Iridium	        1.46        0       1200       20         10
+Magnetorquer	1.86        0       1100       20         10
+OBH	            1.546       0       800        20         10
