@@ -2,7 +2,7 @@ from sysModule import *  # not installable on windows but intern to systema
 
 import math
 
-import csv
+import openpyxl as xl
 
 card_database = []
 card_database += [["Card1", 0.2]]
@@ -105,7 +105,7 @@ def read_database():
     with open('database.csv', newline='') as database:
         for line in database:
             info = line.split()
-            board_database[info[0]] = [info[1], info[2], info[3]] # [thickness, dissipation, node]
+            board_database[info[0]] = [info[1], info[2], info[3], []] # [thickness, dissipation, node]
 
 def alter_pos(card,height):
      board = findShape(model.getRoot(), card)
@@ -137,10 +137,12 @@ def swap_pos(card1, card2):
     board2.getGeometry().setPoint(2,Point(board1_pos[1][0],board1_pos[1][1],board1_pos[1][2]))
     board2.getGeometry().setPoint(3,Point(board1_pos[2][0],board1_pos[2][1],board1_pos[2][2]))
 
-swap_pos("AOCS","Iridium")
+def read_results():
+    wb= xl.load_workbook('results.xlsx')
+#swap_pos("AOCS", "Iridium")
 
-processing = getCurrentProcessingFile()
-processing.run()
+# processing = getCurrentProcessingFile()
+# processing.run()
 
-
+read_results()
 # alter_pos("AOCS", 1)

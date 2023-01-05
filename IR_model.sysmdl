@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<SYSML SYSML_VERSION="1.7" CONTENTS="MODEL" SAVEDATE="1670938750" SYSTEMA_VERSION="4.9.0">
+<SYSML SYSML_VERSION="1.7" CONTENTS="MODEL" SAVEDATE="1671124472" SYSTEMA_VERSION="4.9.0">
     <DATA_STRUCTURE NAME="IR_model.sysmdl" REFSET_ID="{c2af3c6d-9965-4018-889f-b8f7dcd91ba6}">
         <DATA_NODE TYPE="MODEL" REFOBJ_ID="2" NAME="Model">
             <DATA_NODE TYPE="OBJECT" REFOBJ_ID="3" NAME="Walls">
@@ -276,18 +276,18 @@
                 <DATA_NODE TYPE="SHAPE" REFOBJ_ID="23" NAME="AOCS">
                     <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
                         <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Rectangle">
-                            <ELEM X="0.001" Y="0.001" Z="0.23" TYPE="POINT" NAME="Point 1"/>
-                            <ELEM X="0.0999" Y="0.001" Z="0.23" TYPE="POINT" NAME="Point 2"/>
-                            <ELEM X="0.001" Y="0.0999" Z="0.23" TYPE="POINT" NAME="Point 3"/>
+                            <ELEM X="0.001" Y="0.001" Z="0.27" TYPE="POINT" NAME="Point 1"/>
+                            <ELEM X="0.0999" Y="0.001" Z="0.27" TYPE="POINT" NAME="Point 2"/>
+                            <ELEM X="0.001" Y="0.0999" Z="0.27" TYPE="POINT" NAME="Point 3"/>
                         </ELEM>
                     </NODE_ATTRIBUTE>
                 </DATA_NODE>
                 <DATA_NODE TYPE="SHAPE" REFOBJ_ID="24" NAME="Iridium">
                     <NODE_ATTRIBUTE TYPE="SHAPE" NAME="SHAPE">
                         <ELEM SHAPETYPE="RECTANGLE_3P" REVERSE_NORMAL="false" TYPE="SHAPE" NAME="Rectangle">
-                            <ELEM X="0.001" Y="0.001" Z="0.27" TYPE="POINT" NAME="Point 1"/>
-                            <ELEM X="0.0999" Y="0.001" Z="0.27" TYPE="POINT" NAME="Point 2"/>
-                            <ELEM X="0.001" Y="0.0999" Z="0.27" TYPE="POINT" NAME="Point 3"/>
+                            <ELEM X="0.001" Y="0.001" Z="0.23" TYPE="POINT" NAME="Point 1"/>
+                            <ELEM X="0.0999" Y="0.001" Z="0.23" TYPE="POINT" NAME="Point 2"/>
+                            <ELEM X="0.001" Y="0.0999" Z="0.23" TYPE="POINT" NAME="Point 3"/>
                         </ELEM>
                     </NODE_ATTRIBUTE>
                 </DATA_NODE>
